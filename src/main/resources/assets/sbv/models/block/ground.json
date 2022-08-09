@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sbv:blocks/ground",
+    "up": "sbv:blocks/ground",
+    "north": "sbv:blocks/ground",
+    "east": "sbv:blocks/ground",
+    "south": "sbv:blocks/ground",
+    "west": "sbv:blocks/ground",
+    "particle": "sbv:blocks/ground"
+  }
+}

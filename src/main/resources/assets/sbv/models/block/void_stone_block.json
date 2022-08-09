@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sbv:blocks/voidstone_ore_block",
+    "particle": "sbv:blocks/voidstone_ore_block"
+  }
+}

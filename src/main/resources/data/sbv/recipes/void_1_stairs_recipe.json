@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sbv:void_1_planks"
+    },
+    "3": {
+      "item": "sbv:void_1_planks"
+    },
+    "4": {
+      "item": "sbv:void_1_planks"
+    },
+    "6": {
+      "item": "sbv:void_1_planks"
+    },
+    "7": {
+      "item": "sbv:void_1_planks"
+    },
+    "8": {
+      "item": "sbv:void_1_planks"
+    }
+  },
+  "result": {
+    "item": "sbv:void_1_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sbv:void_1_planks"
+    }
+  ],
+  "result": {
+    "item": "sbv:void_1_button",
+    "count": 1
+  }
+}

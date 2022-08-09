@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "sbv:block/void_1_slab"
+    },
+    "type=top": {
+      "model": "sbv:block/void_1_slab_top"
+    },
+    "type=double": {
+      "model": "sbv:block/void_1_slab_full"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sbv:void_diamond"
+    },
+    "2": {
+      "item": "sbv:void_diamond"
+    },
+    "3": {
+      "item": "sbv:void_diamond"
+    },
+    "4": {
+      "item": "sbv:void_diamond"
+    },
+    "5": {
+      "item": "sbv:void_diamond"
+    },
+    "6": {
+      "item": "sbv:void_diamond"
+    },
+    "7": {
+      "item": "sbv:void_diamond"
+    },
+    "8": {
+      "item": "sbv:void_diamond"
+    }
+  },
+  "result": {
+    "item": "sbv:void_diamond_armor_chestplate",
+    "count": 1
+  }
+}

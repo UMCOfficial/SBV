@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sbv:block/void_diamond_block"
+    }
+  }
+}

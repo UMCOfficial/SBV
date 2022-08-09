@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:void1_log"
+    }
+  ],
+  "result": {
+    "item": "sbv:void_1_planks",
+    "count": 4
+  }
+}

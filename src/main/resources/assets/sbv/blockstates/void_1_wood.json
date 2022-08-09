@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sbv:block/void_1_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sbv:block/void_1_wood"
+    },
+    "axis=z": {
+      "model": "sbv:block/void_1_wood",
+      "x": 90
+    }
+  }
+}

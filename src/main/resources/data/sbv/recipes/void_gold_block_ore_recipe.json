@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sbv:void_gold_block"
+    }
+  ],
+  "result": {
+    "item": "sbv:void_gold_ingot",
+    "count": 9
+  }
+}

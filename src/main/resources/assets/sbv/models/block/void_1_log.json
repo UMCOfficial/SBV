@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "sbv:blocks/void1_log_top",
+    "up": "sbv:blocks/void1_log_top",
+    "north": "sbv:blocks/void1_log_side",
+    "east": "sbv:blocks/void1_log_side",
+    "south": "sbv:blocks/void1_log_side",
+    "west": "sbv:blocks/void1_log_side",
+    "particle": "sbv:blocks/void1_log_top"
+  }
+}

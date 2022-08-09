@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sbv:void_stone_block"
+    }
+  ],
+  "result": {
+    "item": "sbv:void_stone",
+    "count": 9
+  }
+}

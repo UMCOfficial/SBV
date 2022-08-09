@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Void1Wood"
+      },
+      {
+        "value": "CUSTOM:Void1Log"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "void1_log",
+    "namespace": "forge"
+  }
+}

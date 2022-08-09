@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sbv:voidite_block"
+    }
+  ],
+  "result": {
+    "item": "sbv:voidite_dust",
+    "count": 9
+  }
+}

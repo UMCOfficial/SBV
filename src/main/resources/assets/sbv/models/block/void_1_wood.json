@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sbv:blocks/void1_log_side",
+    "particle": "sbv:blocks/void1_log_side"
+  }
+}

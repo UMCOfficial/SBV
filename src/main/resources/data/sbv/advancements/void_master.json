@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "sbv:voidite_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.void_master.title"
+    },
+    "description": {
+      "translate": "advancements.void_master.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "void_master": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sbv:inde_beninnging"
+}

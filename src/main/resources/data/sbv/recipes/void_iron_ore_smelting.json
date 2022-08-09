@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "sbv:void_iron_ore"
+  },
+  "result": "sbv:void_iron_ingot"
+}

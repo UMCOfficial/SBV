@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "sbv:blocks/void1_planks",
+    "particle": "sbv:blocks/void1_planks"
+  }
+}
