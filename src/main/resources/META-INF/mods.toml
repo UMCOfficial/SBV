@@ -1,14 +1,18 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="sbv"
 version="1.0.0"
 displayName="Shmello's better void"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
+credits="Its Mr. Shmello"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="Its Mr. Shmello"
+description='''
+Void enhancement for minecraft
+'''
 
 [[dependencies.sbv]]
     modId="minecraft"
@@ -26,12 +30,6 @@ authors="Its Mr. Shmello"
     side="BOTH"
 
 [[dependencies.sbv]]
-    modId="just_enough_items"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sbv]]
     modId="jade"
     mandatory=false
     versionRange="[0,)"
@@ -39,6 +37,12 @@ authors="Its Mr. Shmello"
     side="BOTH"
 [[dependencies.sbv]]
     modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sbv]]
+    modId="jei"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

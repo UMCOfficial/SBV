@@ -17,7 +17,7 @@ public class SbvModTabs {
 		TAB_SHMELLOS_BETTER_VOID = new CreativeModeTab("tabshmellos_better_void") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(SbvModItems.SBV.get());
+				return new ItemStack(SbvModItems.SBVLOGO.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
