@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "sbv:void_1_planks"
+    },
+    "1": {
+      "item": "sbv:void_1_planks"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "sbv:void_1_hoe",
+    "count": 1
+  }
+}

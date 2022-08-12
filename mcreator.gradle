@@ -11,25 +11,6 @@ dependencies {
    runtimeOnly fg.deobf("curse.maven:jade-324717:3681449")
 }
 
-minecraft {
-  runs {
-      client {
-          property 'mixin.env.remapRefMap', 'true'
-          property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-      }
-  }
-}
-repositories {
-  maven {
-    url = "https://maven.blamejared.com"
-  }
-}
-
-dependencies {
-  compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-70:api")
-  runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-70")
-}
-
 repositories {
   maven {
     // location of the maven that hosts JEI files

@@ -3,7 +3,7 @@
     {
       "name": "ShmellosBetterVoid",
       "type": "tab",
-      "sortid": 1,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shmellos_better_void"
@@ -19,7 +19,7 @@
     {
       "name": "Start",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "start",
@@ -28,6 +28,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -67,7 +83,7 @@
     {
       "name": "Void1Leaves",
       "type": "block",
-      "sortid": 6,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_leaves"
@@ -75,7 +91,7 @@
     {
       "name": "Void1Stairs",
       "type": "block",
-      "sortid": 7,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_stairs"
@@ -83,7 +99,7 @@
     {
       "name": "Void1Slab",
       "type": "block",
-      "sortid": 8,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_slab"
@@ -91,7 +107,7 @@
     {
       "name": "Void1Fence",
       "type": "block",
-      "sortid": 9,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_fence"
@@ -99,7 +115,7 @@
     {
       "name": "Void1FenceGate",
       "type": "block",
-      "sortid": 10,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_fence_gate"
@@ -107,7 +123,7 @@
     {
       "name": "Void1PressurePlate",
       "type": "block",
-      "sortid": 11,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_pressure_plate"
@@ -115,7 +131,7 @@
     {
       "name": "Void1Button",
       "type": "block",
-      "sortid": 12,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_button"
@@ -123,7 +139,7 @@
     {
       "name": "Void1ItemsTag",
       "type": "tag",
-      "sortid": 13,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_items_tag"
@@ -131,7 +147,7 @@
     {
       "name": "Void1WoodRecipe",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_wood_recipe"
@@ -139,7 +155,7 @@
     {
       "name": "Void1PlanksRecipe",
       "type": "recipe",
-      "sortid": 15,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_planks_recipe"
@@ -147,7 +163,7 @@
     {
       "name": "Void1StairsRecipe",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_stairs_recipe"
@@ -155,7 +171,7 @@
     {
       "name": "Void1SlabRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_slab_recipe"
@@ -163,7 +179,7 @@
     {
       "name": "Void1FenceRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_fence_recipe"
@@ -171,7 +187,7 @@
     {
       "name": "Void1FenceGateRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_fence_gate_recipe"
@@ -179,7 +195,7 @@
     {
       "name": "Void1PressurePlateRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_pressure_plate_recipe"
@@ -187,7 +203,7 @@
     {
       "name": "Void1ButtonRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_button_recipe"
@@ -195,7 +211,7 @@
     {
       "name": "Void1StickRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_1_stick_recipe"
@@ -203,7 +219,7 @@
     {
       "name": "ShmellosBetterVoidBiome",
       "type": "biome",
-      "sortid": 3,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shmellos_better_void_biome"
@@ -211,7 +227,7 @@
     {
       "name": "ShmellosVoid",
       "type": "dimension",
-      "sortid": 2,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shmellos_void",
@@ -222,7 +238,7 @@
     {
       "name": "IndeBeninnging",
       "type": "achievement",
-      "sortid": 23,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "inde_beninnging"
@@ -230,7 +246,7 @@
     {
       "name": "Voijid",
       "type": "fluid",
-      "sortid": 24,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voijid",
@@ -241,7 +257,7 @@
     {
       "name": "WhatIsThat",
       "type": "achievement",
-      "sortid": 25,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "what_is_that"
@@ -249,7 +265,7 @@
     {
       "name": "VoidIronIngot",
       "type": "item",
-      "sortid": 26,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_ingot"
@@ -257,7 +273,7 @@
     {
       "name": "VoidIronOre",
       "type": "block",
-      "sortid": 27,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_ore"
@@ -265,7 +281,7 @@
     {
       "name": "VoidIronBlock",
       "type": "block",
-      "sortid": 28,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_block"
@@ -273,7 +289,7 @@
     {
       "name": "VoidIronOreBlockRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_ore_block_recipe"
@@ -281,7 +297,7 @@
     {
       "name": "VoidIronBlockOreRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_block_ore_recipe"
@@ -289,7 +305,7 @@
     {
       "name": "VoidIronOreSmelting",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_ore_smelting"
@@ -297,7 +313,7 @@
     {
       "name": "VoidIronPickaxe",
       "type": "tool",
-      "sortid": 32,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_pickaxe"
@@ -305,7 +321,7 @@
     {
       "name": "VoidIronAxe",
       "type": "tool",
-      "sortid": 33,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_axe"
@@ -313,7 +329,7 @@
     {
       "name": "VoidIronSword",
       "type": "tool",
-      "sortid": 34,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_sword"
@@ -321,7 +337,7 @@
     {
       "name": "VoidIronShovel",
       "type": "tool",
-      "sortid": 35,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_shovel"
@@ -329,7 +345,7 @@
     {
       "name": "VoidIronHoe",
       "type": "tool",
-      "sortid": 36,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_hoe"
@@ -337,7 +353,7 @@
     {
       "name": "VoidIronPickaxeRecipe",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_pickaxe_recipe"
@@ -345,7 +361,7 @@
     {
       "name": "VoidIronAxeRecipe",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_axe_recipe"
@@ -353,7 +369,7 @@
     {
       "name": "VoidIronSwordRecipe",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_sword_recipe"
@@ -361,7 +377,7 @@
     {
       "name": "VoidIronShovelRecipe",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_shovel_recipe"
@@ -369,7 +385,7 @@
     {
       "name": "VoidIronHoeRecipe",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_hoe_recipe"
@@ -377,7 +393,7 @@
     {
       "name": "VoidIronArmor",
       "type": "armor",
-      "sortid": 42,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_armor",
@@ -391,7 +407,7 @@
     {
       "name": "VoidIronArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_armor_helmet_recipe"
@@ -399,7 +415,7 @@
     {
       "name": "VoidIronArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_armor_body_recipe"
@@ -407,7 +423,7 @@
     {
       "name": "VoidIronArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 45,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_armor_leggings_recipe"
@@ -415,7 +431,7 @@
     {
       "name": "VoidIronArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_iron_armor_boots_recipe"
@@ -423,23 +439,15 @@
     {
       "name": "VoidDiamond",
       "type": "item",
-      "sortid": 47,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond"
     },
     {
-      "name": "VoidDiamondOre",
-      "type": "block",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_diamond_ore"
-    },
-    {
       "name": "VoidDiamondBlock",
       "type": "block",
-      "sortid": 49,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_block"
@@ -447,7 +455,7 @@
     {
       "name": "VoidDiamondOreBlockRecipe",
       "type": "recipe",
-      "sortid": 50,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_ore_block_recipe"
@@ -455,7 +463,7 @@
     {
       "name": "VoidDiamondBlockOreRecipe",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_block_ore_recipe"
@@ -463,7 +471,7 @@
     {
       "name": "VoidDiamondOreSmelting",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_ore_smelting"
@@ -471,7 +479,7 @@
     {
       "name": "VoidDiamondPickaxe",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_pickaxe"
@@ -479,7 +487,7 @@
     {
       "name": "VoidDiamondAxe",
       "type": "tool",
-      "sortid": 54,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_axe"
@@ -487,7 +495,7 @@
     {
       "name": "VoidDiamondSword",
       "type": "tool",
-      "sortid": 55,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_sword"
@@ -495,7 +503,7 @@
     {
       "name": "VoidDiamondShovel",
       "type": "tool",
-      "sortid": 56,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_shovel"
@@ -503,7 +511,7 @@
     {
       "name": "VoidDiamondHoe",
       "type": "tool",
-      "sortid": 57,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_hoe"
@@ -511,7 +519,7 @@
     {
       "name": "VoidDiamondPickaxeRecipe",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_pickaxe_recipe"
@@ -519,7 +527,7 @@
     {
       "name": "VoidDiamondAxeRecipe",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_axe_recipe"
@@ -527,7 +535,7 @@
     {
       "name": "VoidDiamondSwordRecipe",
       "type": "recipe",
-      "sortid": 60,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_sword_recipe"
@@ -535,7 +543,7 @@
     {
       "name": "VoidDiamondShovelRecipe",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_shovel_recipe"
@@ -543,7 +551,7 @@
     {
       "name": "VoidDiamondHoeRecipe",
       "type": "recipe",
-      "sortid": 62,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_hoe_recipe"
@@ -551,7 +559,7 @@
     {
       "name": "VoidDiamondArmor",
       "type": "armor",
-      "sortid": 63,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_armor",
@@ -565,7 +573,7 @@
     {
       "name": "VoidDiamondArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 64,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_armor_helmet_recipe"
@@ -573,7 +581,7 @@
     {
       "name": "VoidDiamondArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 65,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_armor_body_recipe"
@@ -581,7 +589,7 @@
     {
       "name": "VoidDiamondArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_armor_leggings_recipe"
@@ -589,7 +597,7 @@
     {
       "name": "VoidDiamondArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_diamond_armor_boots_recipe"
@@ -597,7 +605,7 @@
     {
       "name": "VoidGoldIngot",
       "type": "item",
-      "sortid": 68,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_ingot"
@@ -605,7 +613,7 @@
     {
       "name": "VoidGoldOre",
       "type": "block",
-      "sortid": 69,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_ore"
@@ -613,7 +621,7 @@
     {
       "name": "VoidGoldBlock",
       "type": "block",
-      "sortid": 70,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_block"
@@ -621,7 +629,7 @@
     {
       "name": "VoidGoldOreBlockRecipe",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_ore_block_recipe"
@@ -629,7 +637,7 @@
     {
       "name": "VoidGoldBlockOreRecipe",
       "type": "recipe",
-      "sortid": 72,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_block_ore_recipe"
@@ -637,7 +645,7 @@
     {
       "name": "VoidGoldOreSmelting",
       "type": "recipe",
-      "sortid": 73,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_ore_smelting"
@@ -645,7 +653,7 @@
     {
       "name": "VoidGoldPickaxe",
       "type": "tool",
-      "sortid": 74,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_pickaxe"
@@ -653,7 +661,7 @@
     {
       "name": "VoidGoldAxe",
       "type": "tool",
-      "sortid": 75,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_axe"
@@ -661,7 +669,7 @@
     {
       "name": "VoidGoldSword",
       "type": "tool",
-      "sortid": 76,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_sword"
@@ -669,7 +677,7 @@
     {
       "name": "VoidGoldShovel",
       "type": "tool",
-      "sortid": 77,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_shovel"
@@ -677,7 +685,7 @@
     {
       "name": "VoidGoldHoe",
       "type": "tool",
-      "sortid": 78,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_hoe"
@@ -685,7 +693,7 @@
     {
       "name": "VoidGoldPickaxeRecipe",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_pickaxe_recipe"
@@ -693,7 +701,7 @@
     {
       "name": "VoidGoldAxeRecipe",
       "type": "recipe",
-      "sortid": 80,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_axe_recipe"
@@ -701,7 +709,7 @@
     {
       "name": "VoidGoldSwordRecipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_sword_recipe"
@@ -709,7 +717,7 @@
     {
       "name": "VoidGoldShovelRecipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_shovel_recipe"
@@ -717,7 +725,7 @@
     {
       "name": "VoidGoldHoeRecipe",
       "type": "recipe",
-      "sortid": 83,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_hoe_recipe"
@@ -725,7 +733,7 @@
     {
       "name": "VoidGoldArmor",
       "type": "armor",
-      "sortid": 84,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_armor",
@@ -739,7 +747,7 @@
     {
       "name": "VoidGoldArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_armor_helmet_recipe"
@@ -747,7 +755,7 @@
     {
       "name": "VoidGoldArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_armor_body_recipe"
@@ -755,7 +763,7 @@
     {
       "name": "VoidGoldArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_armor_leggings_recipe"
@@ -763,71 +771,15 @@
     {
       "name": "VoidGoldArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_gold_armor_boots_recipe"
     },
     {
-      "name": "VoidStone",
-      "type": "item",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone"
-    },
-    {
-      "name": "VoidStoneOre",
-      "type": "block",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone_ore"
-    },
-    {
-      "name": "VoidStoneBlock",
-      "type": "block",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone_block"
-    },
-    {
-      "name": "VoidStoneOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone_ore_block_recipe"
-    },
-    {
-      "name": "VoidStoneBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 93,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone_block_ore_recipe"
-    },
-    {
-      "name": "VoidStoneOreSmelting",
-      "type": "recipe",
-      "sortid": 94,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone_ore_smelting"
-    },
-    {
-      "name": "VoidStoneRedStoneRec",
-      "type": "recipe",
-      "sortid": 95,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "void_stone_red_stone_rec"
-    },
-    {
       "name": "SBVRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sbv_rightclicked_on_block",
@@ -855,23 +807,15 @@
     {
       "name": "VoiditeDust",
       "type": "item",
-      "sortid": 97,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_dust"
     },
     {
-      "name": "VoiditeOre",
-      "type": "block",
-      "sortid": 98,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "voidite_ore"
-    },
-    {
       "name": "VoiditeBlock",
       "type": "block",
-      "sortid": 99,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_block"
@@ -879,7 +823,7 @@
     {
       "name": "VoiditeOreBlockRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_ore_block_recipe"
@@ -887,7 +831,7 @@
     {
       "name": "VoiditeBlockOreRecipe",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_block_ore_recipe"
@@ -895,7 +839,7 @@
     {
       "name": "VoiditeOreSmelting",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_ore_smelting"
@@ -903,7 +847,7 @@
     {
       "name": "VoiditePickaxe",
       "type": "tool",
-      "sortid": 103,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_pickaxe"
@@ -911,7 +855,7 @@
     {
       "name": "VoiditeAxe",
       "type": "tool",
-      "sortid": 104,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_axe"
@@ -919,7 +863,7 @@
     {
       "name": "VoiditeSword",
       "type": "tool",
-      "sortid": 105,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_sword"
@@ -927,7 +871,7 @@
     {
       "name": "VoiditeShovel",
       "type": "tool",
-      "sortid": 106,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_shovel"
@@ -935,7 +879,7 @@
     {
       "name": "VoiditeHoe",
       "type": "tool",
-      "sortid": 107,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_hoe"
@@ -943,7 +887,7 @@
     {
       "name": "VoiditePickaxeRecipe",
       "type": "recipe",
-      "sortid": 108,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_pickaxe_recipe"
@@ -951,7 +895,7 @@
     {
       "name": "VoiditeAxeRecipe",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_axe_recipe"
@@ -959,7 +903,7 @@
     {
       "name": "VoiditeSwordRecipe",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_sword_recipe"
@@ -967,7 +911,7 @@
     {
       "name": "VoiditeShovelRecipe",
       "type": "recipe",
-      "sortid": 111,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_shovel_recipe"
@@ -975,7 +919,7 @@
     {
       "name": "VoiditeHoeRecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_hoe_recipe"
@@ -983,7 +927,7 @@
     {
       "name": "VoiditeArmor",
       "type": "armor",
-      "sortid": 113,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_armor",
@@ -997,7 +941,7 @@
     {
       "name": "VoiditeArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_armor_helmet_recipe"
@@ -1005,7 +949,7 @@
     {
       "name": "VoiditeArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_armor_body_recipe"
@@ -1013,7 +957,7 @@
     {
       "name": "VoiditeArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_armor_leggings_recipe"
@@ -1021,7 +965,7 @@
     {
       "name": "VoiditeArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_armor_boots_recipe"
@@ -1029,7 +973,7 @@
     {
       "name": "VoidMaster",
       "type": "achievement",
-      "sortid": 118,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_master"
@@ -1037,7 +981,7 @@
     {
       "name": "VoidMasterGet",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_master_get",
@@ -1053,7 +997,7 @@
     {
       "name": "VoiditeOrBlast",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voidite_or_blast"
@@ -1061,25 +1005,249 @@
     {
       "name": "SBVLOGO",
       "type": "item",
-      "sortid": 121,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sbvlogo"
+    },
+    {
+      "name": "VoidDiamondOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_diamond_ore"
+    },
+    {
+      "name": "Excavator",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excavator"
+    },
+    {
+      "name": "Excavetor",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excavetor"
+    },
+    {
+      "name": "SBVTools",
+      "type": "tab",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_tools"
+    },
+    {
+      "name": "SBVWeapons",
+      "type": "tab",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_weapons"
+    },
+    {
+      "name": "SBVMaterials",
+      "type": "tab",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_materials"
+    },
+    {
+      "name": "SBVDiscs",
+      "type": "tab",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_discs"
+    },
+    {
+      "name": "VoidedPieces",
+      "type": "musicdisc",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voided_pieces"
+    },
+    {
+      "name": "SBVArmour",
+      "type": "tab",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_armour"
+    },
+    {
+      "name": "Void1Pickaxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_pickaxe"
+    },
+    {
+      "name": "Void1Axe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_axe"
+    },
+    {
+      "name": "Void1Sword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_sword"
+    },
+    {
+      "name": "Void1Shovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_shovel"
+    },
+    {
+      "name": "Void1Hoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_hoe"
+    },
+    {
+      "name": "Void1PickaxeRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_pickaxe_recipe"
+    },
+    {
+      "name": "Void1AxeRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_axe_recipe"
+    },
+    {
+      "name": "Void1SwordRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_sword_recipe"
+    },
+    {
+      "name": "Void1ShovelRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_shovel_recipe"
+    },
+    {
+      "name": "Void1HoeRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_1_hoe_recipe"
+    },
+    {
+      "name": "VoidCharmRec",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_charm_rec"
+    },
+    {
+      "name": "VoiditeOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidite_ore"
+    },
+    {
+      "name": "Diamonds",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamonds"
+    },
+    {
+      "name": "SBVStarter",
+      "type": "loottable",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_starter"
+    },
+    {
+      "name": "WelcomeTosbv",
+      "type": "achievement",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_tosbv"
+    },
+    {
+      "name": "Only1500",
+      "type": "achievement",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "only_1500"
+    },
+    {
+      "name": "Noweheretobefound",
+      "type": "achievement",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noweheretobefound"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "voidedpieces",
+      "files": [
+        "voided_pieces"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.sbv.voidite_armor_chestplate": "Voidite Chestplate",
+      "advancements.noweheretobefound.title": "No where to be found",
       "advancements.inde_beninnging.title": "Inde Beninnging",
       "item.sbv.void_gold_pickaxe": "VoidGold Pickaxe",
+      "itemGroup.tabsbv_armour": "SBV Armour",
+      "itemGroup.tabsbv_weapons": "SBV Weapons",
       "item.sbv.void_diamond_sword": "VoidDiamond Sword",
       "block.sbv.void_1_fence_gate": "Void Fence Gate",
-      "item.sbv.sbv": "SBV",
+      "item.sbv.sbv": "Void Charm",
       "item.sbv.void_iron_armor_leggings": "VoidIron Leggings",
       "item.sbv.void_gold_armor_helmet": "VoidGold Helmet",
-      "advancements.void_master.descr": "Get a full set of voidite armour",
+      "item.sbv.void_1_axe": "Void Axe",
+      "advancements.noweheretobefound.descr": "Get Voidite Debries",
+      "subtitles.voidedpieces": "",
+      "item.sbv.void_1_shovel": "Void Shovel",
+      "advancements.void_master.descr": "Get a full set of voidite armour and wear it",
       "block.sbv.void_gold_ore": "VoidGold Ore",
       "biome.sbv.shmellos_better_void_biome": "Shmellos Better Void",
       "item.sbv.void_diamond_armor_leggings": "VoidDiamond Leggings",
@@ -1090,9 +1258,12 @@
       "block.sbv.void_1_button": "Void Button",
       "item.sbv.void_iron_armor_chestplate": "VoidIron Chestplate",
       "item.sbv.void_iron_axe": "VoidIron Axe",
+      "itemGroup.tabsbv_materials": "SBV Materials",
+      "advancements.welcome_tosbv.descr": "Download the \"Shmello\u0027s Better Void\" mod",
       "block.sbv.void_1_stairs": "Void Stairs",
       "block.sbv.voidite_block": "Block of Voidite",
       "item.sbv.void_gold_axe": "VoidGold Axe",
+      "advancements.welcome_tosbv.title": "Shmello\u0027s Better Void",
       "item.sbv.voidite_shovel": "Voidite Shovel",
       "item.sbv.voijid_bucket": "Voijid Bucket",
       "item.sbv.voidite_sword": "Voidite Sword",
@@ -1100,33 +1271,40 @@
       "block.sbv.void_1_leaves": "Void Leaves",
       "block.sbv.void_1_slab": "Void Slab",
       "block.sbv.void_1_log": "Void Log",
+      "item.sbv.void_1_sword": "Void Sword",
       "item.sbv.void_gold_sword": "VoidGold Sword",
       "item.sbv.voidite_armor_leggings": "Voidite Leggings",
       "item.sbv.void_diamond_hoe": "VoidDiamond Hoe",
-      "item.sbv.void_stone": "VoidStone",
-      "block.sbv.void_stone_block": "Block of VoidStone",
+      "itemGroup.tabsbv_discs": "SBV Discs",
+      "item.sbv.excavator": "Excavator",
       "advancements.what_is_that.descr": "Get a bucket of Voijid",
       "item.sbv.voidite_armor_boots": "Voidite Boots",
       "block.sbv.void_1_fence": "Void Fence",
+      "item.sbv.voided_pieces": "Voided Pieces",
       "item.sbv.voidite_axe": "Voidite Axe",
       "item.sbv.void_gold_shovel": "VoidGold Shovel",
-      "block.sbv.void_stone_ore": "VoidStone Ore",
       "item.sbv.voidite_pickaxe": "Voidite Pickaxe",
       "item.sbv.void_iron_armor_boots": "VoidIron Boots",
       "item.sbv.void_iron_pickaxe": "VoidIron Pickaxe",
       "item.sbv.void_diamond_armor_boots": "VoidDiamond Boots",
+      "advancements.diamonds.title": "Diamonds?",
+      "advancements.only_1500.descr": "Obtain VoidIron",
       "block.sbv.void_1_planks": "Void Planks",
       "item.sbv.void_iron_armor_helmet": "VoidIron Helmet",
       "item.sbv.void_gold_armor_leggings": "VoidGold Leggings",
       "block.sbv.void_1_wood": "Void Wood",
+      "item.sbv.voided_pieces.desc": "The Transdimensional Three - Voided Pieces",
+      "advancements.diamonds.descr": "Obtain a void diamond",
+      "advancements.only_1500.title": "Damn Only 1500?",
       "item.sbv.sbvlogo": "SBV_LOGO",
       "block.sbv.void_iron_ore": "VoidIron Ore",
       "item.sbv.void_gold_armor_boots": "VoidGold Boots",
       "item.sbv.voidite_dust": "Voidite",
+      "item.sbv.void_1_hoe": "Void1 Hoe",
       "item.sbv.void_iron_ingot": "VoidIron",
       "block.sbv.void_gold_block": "Block of VoidGold",
       "block.sbv.ground": "Ground",
-      "block.sbv.voidite_ore": "Voidite Ore",
+      "block.sbv.voidite_ore": "Voidite Debries",
       "block.sbv.voijid": "Voijid",
       "item.sbv.void_diamond_axe": "VoidDiamond Axe",
       "block.sbv.void_iron_block": "Block of VoidIron",
@@ -1136,6 +1314,7 @@
       "advancements.void_master.title": "Void Master",
       "item.sbv.void_iron_hoe": "VoidIron Hoe",
       "item.sbv.void_diamond_shovel": "VoidDiamond Shovel",
+      "item.sbv.void_1_pickaxe": "Void Pickaxe",
       "block.sbv.void_diamond_block": "Block of VoidDiamond",
       "advancements.what_is_that.title": "What Is That",
       "item.sbv.void_diamond_armor_chestplate": "VoidDiamond Chestplate",
@@ -1144,9 +1323,10 @@
       "advancements.inde_beninnging.descr": "Enter The Void",
       "item.sbv.void_diamond_pickaxe": "VoidDiamond Pickaxe",
       "item.sbv.void_gold_armor_chestplate": "VoidGold Chestplate",
+      "itemGroup.tabsbv_tools": "SBV Tools",
       "item.sbv.void_iron_shovel": "VoidIron Shovel",
       "item.sbv.void_diamond": "VoidDiamond",
-      "block.sbv.void_diamond_ore": "VoidDiamond Ore"
+      "block.sbv.void_diamond_ore": "Void Diamond Ore"
     }
   },
   "foldersRoot": {
@@ -1157,9 +1337,9 @@
     "modid": "sbv",
     "modName": "Shmello\u0027s better void",
     "version": "1.0.0",
-    "description": "Void enhancement for minecraft",
+    "description": "Void enhancement for minecraft (JEI Recomended) (Jade and jei apis are supported)",
     "author": "Its Mr. Shmello",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "https://theumcnetwork.com",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -1171,7 +1351,6 @@
     "dependants": [],
     "mcreatorDependencies": [
       "jade",
-      "patchouli",
       "jei"
     ],
     "currentGenerator": "forge-1.18.2",

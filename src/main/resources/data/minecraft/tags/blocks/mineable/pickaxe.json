@@ -1,15 +1,11 @@
 {
   "replace": false,
   "values": [
-    "sbv:void_iron_ore",
-    "sbv:void_iron_block",
-    "sbv:void_diamond_ore",
-    "sbv:void_diamond_block",
     "sbv:void_gold_ore",
     "sbv:void_gold_block",
-    "sbv:void_stone_ore",
-    "sbv:void_stone_block",
-    "sbv:voidite_ore",
+    "sbv:void_iron_ore",
+    "sbv:void_iron_block",
+    "sbv:void_diamond_block",
     "sbv:voidite_block"
   ]
 }

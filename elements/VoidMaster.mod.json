@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Void Master",
-    "achievementDescription": "Get a full set of voidite armour",
+    "achievementDescription": "Get a full set of voidite armour and wear it",
     "achievementIcon": {
       "value": "CUSTOM:VoiditeArmor.body"
     },

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sbv:void_iron_ingot"
+    },
+    "title": {
+      "translate": "advancements.only_1500.title"
+    },
+    "description": {
+      "translate": "advancements.only_1500.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "only_1500": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sbv:void_iron_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sbv:inde_beninnging"
+}

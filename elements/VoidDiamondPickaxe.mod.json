@@ -8,7 +8,7 @@
     "name": "VoidDiamond Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,

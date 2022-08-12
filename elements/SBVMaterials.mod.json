@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "SBV Materials",
+    "icon": {
+      "value": "CUSTOM:VoiditeBlock"
+    },
+    "showSearch": true
+  }
+}

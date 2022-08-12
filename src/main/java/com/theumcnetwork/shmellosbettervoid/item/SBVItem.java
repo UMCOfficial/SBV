@@ -53,7 +53,7 @@ public class SBVItem extends Item {
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("Breaks Bedrock"));
-		list.add(new TextComponent("If held while in the void: sends you to the void dimension"));
+		list.add(new TextComponent("When held in the main hand while in the void you will enter the void dimension"));
 	}
 
 	@Override
@@ -68,6 +68,6 @@ public class SBVItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		if (selected)
-			StartProcedure.execute(entity);
+			StartProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 	}
 }

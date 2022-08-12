@@ -1,0 +1,11 @@
+{
+  "voidedpieces": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sbv:voided_pieces",
+        "stream": true
+      }
+    ]
+  }
+}

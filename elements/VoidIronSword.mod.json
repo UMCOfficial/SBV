@@ -8,7 +8,7 @@
     "name": "VoidIron Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SBVWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 2,

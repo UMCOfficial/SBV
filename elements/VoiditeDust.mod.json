@@ -8,7 +8,7 @@
     "name": "Voidite",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SBVMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,

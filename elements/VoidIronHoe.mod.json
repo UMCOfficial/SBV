@@ -8,7 +8,7 @@
     "name": "VoidIron Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 2,

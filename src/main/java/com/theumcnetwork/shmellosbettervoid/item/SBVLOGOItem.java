@@ -6,11 +6,10 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
 public class SBVLOGOItem extends Item {
 	public SBVLOGOItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(0).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(null).stacksTo(0).rarity(Rarity.EPIC));
 	}
 
 	@Override

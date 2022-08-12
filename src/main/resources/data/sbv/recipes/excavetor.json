@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "sbv:void_iron_ingot"
+    },
+    "1": {
+      "item": "sbv:ground"
+    },
+    "2": {
+      "item": "sbv:void_iron_ingot"
+    },
+    "3": {
+      "item": "sbv:ground"
+    },
+    "4": {
+      "item": "sbv:void_diamond"
+    },
+    "5": {
+      "item": "sbv:ground"
+    },
+    "6": {
+      "item": "sbv:void_iron_ingot"
+    },
+    "7": {
+      "item": "sbv:ground"
+    },
+    "8": {
+      "item": "sbv:void_iron_ingot"
+    }
+  },
+  "result": {
+    "item": "sbv:excavator",
+    "count": 1
+  }
+}

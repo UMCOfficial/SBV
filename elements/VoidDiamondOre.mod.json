@@ -8,8 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,16 +32,16 @@
         "subtract": false
       }
     ],
-    "name": "VoidDiamond Ore",
+    "name": "Void Diamond Ore",
     "specialInfo": [],
-    "hardness": 6.0,
-    "resistance": 8.705505632961241,
+    "hardness": 5.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShmellosBetterVoid"
+      "value": "CUSTOM:SBVMaterials"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": "CUSTOM:VoidDiamond"
     },
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 4,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -135,8 +135,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 5,
-    "frequencyOnChunk": 3,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": -57,
     "maxGenerateHeight": 12
   }

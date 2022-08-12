@@ -43,7 +43,7 @@ public class VoiditeOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new VoiditeOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("sbv:voidite_ore", FEATURE,
-				new OreConfiguration(VoiditeOreFeatureRuleTest.INSTANCE, SbvModBlocks.VOIDITE_ORE.get().defaultBlockState(), 1));
+				new OreConfiguration(VoiditeOreFeatureRuleTest.INSTANCE, SbvModBlocks.VOIDITE_ORE.get().defaultBlockState(), 3));
 		PLACED_FEATURE = PlacementUtils.register("sbv:voidite_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(2), InSquarePlacement.spread(),
 				HeightRangePlacement.uniform(VerticalAnchor.absolute(-57), VerticalAnchor.absolute(-20)), BiomeFilter.biome()));
 		return FEATURE;

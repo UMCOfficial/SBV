@@ -8,7 +8,7 @@
     "name": "VoidGold Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 1,

@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "voidedpieces",
+    "name": "Voided Pieces",
+    "description": "The Transdimensional Three - Voided Pieces",
+    "creativeTab": {
+      "value": "CUSTOM:SBVDiscs"
+    },
+    "music": {
+      "value": "CUSTOM:voidedpieces"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

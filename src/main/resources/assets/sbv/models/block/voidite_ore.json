@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "sbv:blocks/voidite_ore",
+    "down": "sbv:blocks/voidite_ore",
+    "up": "sbv:blocks/voidite_ore",
+    "north": "sbv:blocks/voidite_ore",
+    "east": "sbv:blocks/voidite_ore",
+    "south": "sbv:blocks/voidite_ore",
+    "west": "sbv:blocks/voidite_ore",
     "particle": "sbv:blocks/voidite_ore"
   }
 }

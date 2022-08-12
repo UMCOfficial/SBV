@@ -43,9 +43,10 @@ public class VoidDiamondOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new VoidDiamondOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("sbv:void_diamond_ore", FEATURE,
-				new OreConfiguration(VoidDiamondOreFeatureRuleTest.INSTANCE, SbvModBlocks.VOID_DIAMOND_ORE.get().defaultBlockState(), 3));
-		PLACED_FEATURE = PlacementUtils.register("sbv:void_diamond_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(5), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(-57), VerticalAnchor.absolute(12)), BiomeFilter.biome()));
+				new OreConfiguration(VoidDiamondOreFeatureRuleTest.INSTANCE, SbvModBlocks.VOID_DIAMOND_ORE.get().defaultBlockState(), 16));
+		PLACED_FEATURE = PlacementUtils.register("sbv:void_diamond_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-57), VerticalAnchor.absolute(12)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

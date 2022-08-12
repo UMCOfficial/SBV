@@ -7,11 +7,11 @@ modId="sbv"
 version="1.0.0"
 displayName="Shmello's better void"
 credits="Its Mr. Shmello"
-displayURL="https://mcreator.net"
+displayURL="https://theumcnetwork.com"
 logoFile="logo.png"
 authors="Its Mr. Shmello"
 description='''
-Void enhancement for minecraft
+Void enhancement for minecraft (JEI Recomended) (Jade and jei apis are supported)
 '''
 
 [[dependencies.sbv]]
@@ -31,12 +31,6 @@ Void enhancement for minecraft
 
 [[dependencies.sbv]]
     modId="jade"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.sbv]]
-    modId="patchouli"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"

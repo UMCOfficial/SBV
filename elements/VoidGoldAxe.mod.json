@@ -8,7 +8,7 @@
     "name": "VoidGold Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Axe",
     "harvestLevel": 1,

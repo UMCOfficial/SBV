@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
+      },
+      {
+        "value": "Blocks.DRAGON_WALL_HEAD"
+      },
+      {
+        "value": "Items.FIRE_CHARGE"
+      },
+      {
+        "value": "Blocks.NETHERITE_BLOCK"
+      },
+      {
+        "value": "Items.MAGMA_CREAM"
+      },
+      {
+        "value": "Blocks.CHISELED_NETHER_BRICKS"
+      },
+      {
+        "value": "Items.FIRE_CHARGE"
+      },
+      {
+        "value": "Blocks.RAW_IRON_BLOCK"
+      },
+      {
+        "value": "Items.TOTEM_OF_UNDYING"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SBV"
+    },
+    "name": "void_charm_rec",
+    "namespace": "mod"
+  }
+}

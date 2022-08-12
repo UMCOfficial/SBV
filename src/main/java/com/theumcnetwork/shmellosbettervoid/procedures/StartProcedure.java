@@ -1,5 +1,6 @@
 package com.theumcnetwork.shmellosbettervoid.procedures;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -15,10 +16,11 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.BlockPos;
 
 public class StartProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity.getY() <= -64) {
+		if (entity.getY() <= -64
+				&& !new ResourceLocation("sbv:shmellos_better_void_biome").equals(world.getBiome(new BlockPos(x, y, z)).value().getRegistryName())) {
 			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
 				ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("sbv:shmellos_void"));
 				if (_player.level.dimension() == destinationType)

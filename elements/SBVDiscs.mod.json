@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "SBV Discs",
+    "icon": {
+      "value": "CUSTOM:VoidedPieces"
+    },
+    "showSearch": true
+  }
+}

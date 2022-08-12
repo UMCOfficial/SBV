@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "sbv",
     "customModelName": "Normal",
-    "name": "SBV",
+    "name": "Void Charm",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:ShmellosBetterVoid"
@@ -26,7 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [
       "Breaks Bedrock",
-      "If held while in the void: sends you to the void dimension"
+      "When held in the main hand while in the void you will enter the void dimension"
     ],
     "hasGlow": true,
     "guiBoundTo": "<NONE>",

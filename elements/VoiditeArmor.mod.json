@@ -23,7 +23,7 @@
       "name": "VoidMasterGet"
     },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SBVArmour"
     },
     "armorTextureFile": "voidite",
     "helmetName": "Voidite Helmet",

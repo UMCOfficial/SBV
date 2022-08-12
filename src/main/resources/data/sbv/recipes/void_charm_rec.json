@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "1": {
+      "item": "minecraft:dragon_wall_head"
+    },
+    "2": {
+      "item": "minecraft:fire_charge"
+    },
+    "3": {
+      "item": "minecraft:netherite_block"
+    },
+    "4": {
+      "item": "minecraft:magma_cream"
+    },
+    "5": {
+      "item": "minecraft:chiseled_nether_bricks"
+    },
+    "6": {
+      "item": "minecraft:fire_charge"
+    },
+    "7": {
+      "item": "minecraft:raw_iron_block"
+    },
+    "8": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "sbv:sbv",
+    "count": 1
+  }
+}

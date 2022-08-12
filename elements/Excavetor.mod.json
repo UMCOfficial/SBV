@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:VoidIronIngot"
+      },
+      {
+        "value": "CUSTOM:Ground"
+      },
+      {
+        "value": "CUSTOM:VoidIronIngot"
+      },
+      {
+        "value": "CUSTOM:Ground"
+      },
+      {
+        "value": "CUSTOM:VoidDiamond"
+      },
+      {
+        "value": "CUSTOM:Ground"
+      },
+      {
+        "value": "CUSTOM:VoidIronIngot"
+      },
+      {
+        "value": "CUSTOM:Ground"
+      },
+      {
+        "value": "CUSTOM:VoidIronIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Excavator"
+    },
+    "name": "excavetor",
+    "namespace": "mod"
+  }
+}

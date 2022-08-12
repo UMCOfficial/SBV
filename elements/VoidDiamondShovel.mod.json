@@ -8,7 +8,7 @@
     "name": "VoidDiamond Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Spade",
     "harvestLevel": 4,

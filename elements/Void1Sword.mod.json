@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "void1_sword",
+    "customModelName": "Normal",
+    "name": "Void Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SBVWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 6.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Void1Planks"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -41,7 +41,7 @@
     "creativeTab": {
       "value": "CUSTOM:ShmellosBetterVoid"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },

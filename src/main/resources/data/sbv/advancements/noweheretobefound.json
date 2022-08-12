@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "sbv:voidite_ore"
+    },
+    "title": {
+      "translate": "advancements.noweheretobefound.title"
+    },
+    "description": {
+      "translate": "advancements.noweheretobefound.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "noweheretobefound": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sbv:voidite_ore"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "sbv:inde_beninnging"
+}

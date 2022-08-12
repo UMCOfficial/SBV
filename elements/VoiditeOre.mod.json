@@ -8,8 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,20 +32,20 @@
         "subtract": false
       }
     ],
-    "name": "Voidite Ore",
+    "name": "Voidite Debries",
     "specialInfo": [],
-    "hardness": 15.0,
-    "resistance": 18.11949159194239,
+    "hardness": 8.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShmellosBetterVoid"
+      "value": "CUSTOM:SBVMaterials"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:VoiditeDust"
+      "value": ""
     },
-    "dropAmount": 3,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 10,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -136,7 +136,7 @@
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 2,
-    "frequencyOnChunk": 1,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": -57,
     "maxGenerateHeight": -20
   }

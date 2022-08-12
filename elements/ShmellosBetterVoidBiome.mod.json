@@ -40,7 +40,7 @@
     "spawnInCaves": false,
     "biomeWeight": 10,
     "biomeDictionaryTypes": [],
-    "grassPerChunk": 4,
+    "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
@@ -49,10 +49,10 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 1,
-    "vanillaTreeType": "Default",
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Mega pine trees",
     "treeType": 1,
-    "minHeight": 7,
+    "minHeight": 10,
     "treeStem": {
       "value": "CUSTOM:Void1Wood"
     },
@@ -60,16 +60,16 @@
       "value": "CUSTOM:Void1Leaves"
     },
     "treeVines": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
-      "value": ""
+      "value": "Blocks.AIR"
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,
-    "spawnMineshaftMesa": true,
+    "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
-    "villageType": "plains",
+    "villageType": "none",
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
@@ -87,8 +87,7 @@
     "spawnRuinedPortal": "STANDARD",
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "Ores"
     ],
     "spawnEntries": []
   }
