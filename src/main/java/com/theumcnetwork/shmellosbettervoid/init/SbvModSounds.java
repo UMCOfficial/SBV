@@ -19,6 +19,7 @@ public class SbvModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("sbv", "voidedpieces"), new SoundEvent(new ResourceLocation("sbv", "voidedpieces")));
+		REGISTRY.put(new ResourceLocation("sbv", "deathbyvoider"), new SoundEvent(new ResourceLocation("sbv", "deathbyvoider")));
 	}
 
 	@SubscribeEvent

@@ -34,6 +34,7 @@ import com.theumcnetwork.shmellosbettervoid.init.SbvModTabs;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModItems;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModFluids;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModFeatures;
+import com.theumcnetwork.shmellosbettervoid.init.SbvModEntities;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModBlocks;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModBiomes;
 
@@ -51,6 +52,7 @@ public class SbvMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		SbvModBlocks.REGISTRY.register(bus);
 		SbvModItems.REGISTRY.register(bus);
+		SbvModEntities.REGISTRY.register(bus);
 
 		SbvModFeatures.REGISTRY.register(bus);
 		SbvModFluids.REGISTRY.register(bus);

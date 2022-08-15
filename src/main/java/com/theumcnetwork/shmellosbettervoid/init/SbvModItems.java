@@ -7,6 +7,7 @@ package com.theumcnetwork.shmellosbettervoid.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -136,6 +137,8 @@ public class SbvModItems {
 	public static final RegistryObject<Item> VOIDITE_ARMOR_BOOTS = REGISTRY.register("voidite_armor_boots", () -> new VoiditeArmorItem.Boots());
 	public static final RegistryObject<Item> VOIDED_PIECES = REGISTRY.register("voided_pieces", () -> new VoidedPiecesItem());
 	public static final RegistryObject<Item> SBVLOGO = REGISTRY.register("sbvlogo", () -> new SBVLOGOItem());
+	public static final RegistryObject<Item> VOIDER = REGISTRY.register("voider_spawn_egg",
+			() -> new ForgeSpawnEggItem(SbvModEntities.VOIDER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
