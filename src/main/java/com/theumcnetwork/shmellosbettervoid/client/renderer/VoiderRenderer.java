@@ -15,6 +15,6 @@ public class VoiderRenderer extends MobRenderer<VoiderEntity, Modelcustom_model<
 
 	@Override
 	public ResourceLocation getTextureLocation(VoiderEntity entity) {
-		return new ResourceLocation("sbv:textures/voidertx.png");
+		return new ResourceLocation("sbv:textures/entities/voidertx.png");
 	}
 }

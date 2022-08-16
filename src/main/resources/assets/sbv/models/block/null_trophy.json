@@ -1,0 +1,8 @@
+{
+  "parent": "sbv:custom/null_block",
+  "textures": {
+    "all": "sbv:blocks/nulltx",
+    "particle": "sbv:blocks/nulltx",
+    "0": "sbv:blocks/nulltx"
+  }
+}

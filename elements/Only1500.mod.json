@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "achievement",
   "definition": {
     "achievementName": "Damn Only 1500?",
@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "CUSTOM:VoidIronIngot"
     },
-    "background": "Default",
+    "background": "voidbg.png",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,

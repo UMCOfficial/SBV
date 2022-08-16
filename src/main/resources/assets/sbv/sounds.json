@@ -16,5 +16,25 @@
         "stream": false
       }
     ]
+  },
+  "null_talk": {
+    "category": "voice",
+    "subtitle": "subtitles.null_talk",
+    "sounds": [
+      {
+        "name": "sbv:sound-_1_",
+        "stream": false
+      }
+    ]
+  },
+  "null_death": {
+    "category": "voice",
+    "subtitle": "subtitles.null_death",
+    "sounds": [
+      {
+        "name": "sbv:sound",
+        "stream": false
+      }
+    ]
   }
 }

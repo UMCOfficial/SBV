@@ -1,8 +1,8 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "tab",
   "definition": {
-    "name": "SBV Armour",
+    "name": "SBV Armor",
     "icon": {
       "value": "CUSTOM:VoiditeArmor.body"
     },

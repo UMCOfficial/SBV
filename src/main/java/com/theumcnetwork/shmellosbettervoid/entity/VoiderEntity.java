@@ -42,15 +42,20 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import java.util.Set;
+
 import com.theumcnetwork.shmellosbettervoid.procedures.VoiderThisEntityKillsAnotherOneProcedure;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModEntities;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModBlocks;
 
 @Mod.EventBusSubscriber
 public class VoiderEntity extends Monster {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sbv:shmellos_better_void_biome"));
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SbvModEntities.VOIDER.get(), 9, 1, 1));
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SbvModEntities.VOIDER.get(), 9, 1, 1));
 	}
 
 	public VoiderEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -131,7 +136,7 @@ public class VoiderEntity extends Monster {
 	@Override
 	public void awardKillScore(Entity entity, int score, DamageSource damageSource) {
 		super.awardKillScore(entity, score, damageSource);
-		VoiderThisEntityKillsAnotherOneProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), entity);
+		VoiderThisEntityKillsAnotherOneProcedure.execute(entity);
 	}
 
 	public static void init() {
@@ -143,10 +148,13 @@ public class VoiderEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 1);
+		builder = builder.add(Attributes.MAX_HEALTH, 22);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1);
+		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.6);
 		return builder;
 	}
 }

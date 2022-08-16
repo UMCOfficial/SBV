@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoijidItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeSwordItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeShovelItem;
+import com.theumcnetwork.shmellosbettervoid.item.VoiditeScrapItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditePickaxeItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeHoeItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeDustItem;
@@ -138,7 +139,13 @@ public class SbvModItems {
 	public static final RegistryObject<Item> VOIDED_PIECES = REGISTRY.register("voided_pieces", () -> new VoidedPiecesItem());
 	public static final RegistryObject<Item> SBVLOGO = REGISTRY.register("sbvlogo", () -> new SBVLOGOItem());
 	public static final RegistryObject<Item> VOIDER = REGISTRY.register("voider_spawn_egg",
-			() -> new ForgeSpawnEggItem(SbvModEntities.VOIDER, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+			() -> new ForgeSpawnEggItem(SbvModEntities.VOIDER, -16777216, -16764109, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> VOIDITE_SCRAP = REGISTRY.register("voidite_scrap", () -> new VoiditeScrapItem());
+	public static final RegistryObject<Item> NULL = REGISTRY.register("null_spawn_egg",
+			() -> new ForgeSpawnEggItem(SbvModEntities.NULL, -52225, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> NULL_TROPHY = block(SbvModBlocks.NULL_TROPHY, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
+	public static final RegistryObject<Item> KULTR = REGISTRY.register("kultr_spawn_egg",
+			() -> new ForgeSpawnEggItem(SbvModEntities.KULTR, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

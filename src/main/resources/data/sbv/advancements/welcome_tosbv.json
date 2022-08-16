@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "sbv:textures/screens/voidbg.png",
     "icon": {
       "item": "sbv:sbvlogo"
     },

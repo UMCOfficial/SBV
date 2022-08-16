@@ -20,6 +20,8 @@ public class SbvModSounds {
 	static {
 		REGISTRY.put(new ResourceLocation("sbv", "voidedpieces"), new SoundEvent(new ResourceLocation("sbv", "voidedpieces")));
 		REGISTRY.put(new ResourceLocation("sbv", "deathbyvoider"), new SoundEvent(new ResourceLocation("sbv", "deathbyvoider")));
+		REGISTRY.put(new ResourceLocation("sbv", "null_talk"), new SoundEvent(new ResourceLocation("sbv", "null_talk")));
+		REGISTRY.put(new ResourceLocation("sbv", "null_death"), new SoundEvent(new ResourceLocation("sbv", "null_death")));
 	}
 
 	@SubscribeEvent
