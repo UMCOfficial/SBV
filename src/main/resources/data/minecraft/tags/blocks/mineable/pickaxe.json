@@ -9,6 +9,7 @@
     "sbv:void_diamond_block",
     "sbv:voidite_ore",
     "sbv:voidite_block",
-    "sbv:null_trophy"
+    "sbv:null_trophy",
+    "sbv:reinforced_voidite_block"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "sbv:blocks/reinforcedvoidite_ore_block",
+    "particle": "sbv:blocks/reinforcedvoidite_ore_block"
+  }
+}

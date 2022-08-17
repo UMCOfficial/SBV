@@ -52,6 +52,13 @@ import com.theumcnetwork.shmellosbettervoid.item.Void1HoeItem;
 import com.theumcnetwork.shmellosbettervoid.item.Void1AxeItem;
 import com.theumcnetwork.shmellosbettervoid.item.SBVLOGOItem;
 import com.theumcnetwork.shmellosbettervoid.item.SBVItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeSwordItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeShovelItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditePickaxeItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeIngotItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeHoeItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeAxeItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeArmorItem;
 import com.theumcnetwork.shmellosbettervoid.item.ExcavatorItem;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
 
@@ -146,6 +153,28 @@ public class SbvModItems {
 	public static final RegistryObject<Item> NULL_TROPHY = block(SbvModBlocks.NULL_TROPHY, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
 	public static final RegistryObject<Item> KULTR = REGISTRY.register("kultr_spawn_egg",
 			() -> new ForgeSpawnEggItem(SbvModEntities.KULTR, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_INGOT = REGISTRY.register("reinforced_voidite_ingot",
+			() -> new ReinforcedVoiditeIngotItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_BLOCK = block(SbvModBlocks.REINFORCED_VOIDITE_BLOCK,
+			SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_PICKAXE = REGISTRY.register("reinforced_voidite_pickaxe",
+			() -> new ReinforcedVoiditePickaxeItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_AXE = REGISTRY.register("reinforced_voidite_axe",
+			() -> new ReinforcedVoiditeAxeItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_SWORD = REGISTRY.register("reinforced_voidite_sword",
+			() -> new ReinforcedVoiditeSwordItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_SHOVEL = REGISTRY.register("reinforced_voidite_shovel",
+			() -> new ReinforcedVoiditeShovelItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_HOE = REGISTRY.register("reinforced_voidite_hoe",
+			() -> new ReinforcedVoiditeHoeItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_ARMOR_HELMET = REGISTRY.register("reinforced_voidite_armor_helmet",
+			() -> new ReinforcedVoiditeArmorItem.Helmet());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_ARMOR_CHESTPLATE = REGISTRY.register("reinforced_voidite_armor_chestplate",
+			() -> new ReinforcedVoiditeArmorItem.Chestplate());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_ARMOR_LEGGINGS = REGISTRY.register("reinforced_voidite_armor_leggings",
+			() -> new ReinforcedVoiditeArmorItem.Leggings());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_ARMOR_BOOTS = REGISTRY.register("reinforced_voidite_armor_boots",
+			() -> new ReinforcedVoiditeArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

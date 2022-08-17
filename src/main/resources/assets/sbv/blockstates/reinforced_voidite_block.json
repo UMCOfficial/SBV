@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sbv:block/reinforced_voidite_block"
+    }
+  }
+}

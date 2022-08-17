@@ -33,6 +33,7 @@ import com.theumcnetwork.shmellosbettervoid.block.Void1LeavesBlock;
 import com.theumcnetwork.shmellosbettervoid.block.Void1FenceGateBlock;
 import com.theumcnetwork.shmellosbettervoid.block.Void1FenceBlock;
 import com.theumcnetwork.shmellosbettervoid.block.Void1ButtonBlock;
+import com.theumcnetwork.shmellosbettervoid.block.ReinforcedVoiditeBlockBlock;
 import com.theumcnetwork.shmellosbettervoid.block.NullTrophyBlock;
 import com.theumcnetwork.shmellosbettervoid.block.GroundBlock;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
@@ -60,6 +61,8 @@ public class SbvModBlocks {
 	public static final RegistryObject<Block> VOID_1_FENCE_GATE = REGISTRY.register("void_1_fence_gate", () -> new Void1FenceGateBlock());
 	public static final RegistryObject<Block> VOID_1_PRESSURE_PLATE = REGISTRY.register("void_1_pressure_plate", () -> new Void1PressurePlateBlock());
 	public static final RegistryObject<Block> NULL_TROPHY = REGISTRY.register("null_trophy", () -> new NullTrophyBlock());
+	public static final RegistryObject<Block> REINFORCED_VOIDITE_BLOCK = REGISTRY.register("reinforced_voidite_block",
+			() -> new ReinforcedVoiditeBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

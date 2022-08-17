@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "sbv:voidite_sword"
+  },
+  "addition": {
+    "item": "sbv:voidite_block"
+  },
+  "result": {
+    "item": "sbv:reinforced_voidite_sword"
+  }
+}
