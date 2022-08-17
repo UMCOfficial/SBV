@@ -1551,6 +1551,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "SourceCode",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "source_code",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1595,12 +1611,12 @@
       "block.sbv.void_1_fence_gate": "Void Fence Gate",
       "item.sbv.void_1_axe": "Void Axe",
       "advancements.noweheretobefound.descr": "Get Voidite Debries",
-      "subtitles.voidedpieces": "",
       "item.sbv.void_1_shovel": "Void Shovel",
+      "subtitles.voidedpieces": "",
       "advancements.void_master.descr": "Get a full set of voidite armour and wear it",
       "item.sbv.void_iron_sword": "VoidIron Sword",
-      "item.sbv.voidite_hoe": "Voidite Hoe",
       "item.sbv.voidite_armor_helmet": "Voidite Helmet",
+      "item.sbv.voidite_hoe": "Voidite Hoe",
       "block.sbv.void_1_button": "Void Button",
       "item.sbv.reinforced_voidite_hoe": "ReinforcedVoidite Hoe",
       "item.sbv.void_iron_axe": "VoidIron Axe",

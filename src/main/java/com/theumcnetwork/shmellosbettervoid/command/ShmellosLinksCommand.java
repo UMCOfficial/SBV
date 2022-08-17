@@ -14,6 +14,7 @@ import net.minecraft.commands.Commands;
 import com.theumcnetwork.shmellosbettervoid.procedures.WebsiteProcedure;
 import com.theumcnetwork.shmellosbettervoid.procedures.TwitterProcedure;
 import com.theumcnetwork.shmellosbettervoid.procedures.SpotifyProcedure;
+import com.theumcnetwork.shmellosbettervoid.procedures.SourceCodeProcedure;
 import com.theumcnetwork.shmellosbettervoid.procedures.DownloadProcedure;
 import com.theumcnetwork.shmellosbettervoid.procedures.DiscordProcedure;
 import com.theumcnetwork.shmellosbettervoid.procedures.CommandcoProcedure;
@@ -59,6 +60,18 @@ public class ShmellosLinksCommand {
 					Direction direction = entity.getDirection();
 
 					DownloadProcedure.execute(entity);
+					return 0;
+				})).then(Commands.literal("sourcecode").executes(arguments -> {
+					ServerLevel world = arguments.getSource().getLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null)
+						entity = FakePlayerFactory.getMinecraft(world);
+					Direction direction = entity.getDirection();
+
+					SourceCodeProcedure.execute(entity);
 					return 0;
 				})).then(Commands.literal("spotify").executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
