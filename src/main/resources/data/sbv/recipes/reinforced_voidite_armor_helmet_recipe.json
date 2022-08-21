@@ -1,28 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "3 5"
-  ],
-  "key": {
-    "0": {
-      "item": "sbv:reinforced_voidite_ingot"
-    },
-    "1": {
-      "item": "sbv:reinforced_voidite_ingot"
-    },
-    "2": {
-      "item": "sbv:reinforced_voidite_ingot"
-    },
-    "3": {
-      "item": "sbv:reinforced_voidite_ingot"
-    },
-    "5": {
-      "item": "sbv:reinforced_voidite_ingot"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "sbv:voidite_armor_helmet"
+  },
+  "addition": {
+    "item": "sbv:voidite_block"
   },
   "result": {
-    "item": "sbv:reinforced_voidite_armor_helmet",
-    "count": 1
+    "item": "sbv:reinforced_voidite_armor_helmet"
   }
 }

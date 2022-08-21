@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "sbv:block/null_trophy"
+    },
+    "facing=east": {
+      "model": "sbv:block/null_trophy",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sbv:block/null_trophy",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sbv:block/null_trophy",
+      "y": 270
     }
   }
 }

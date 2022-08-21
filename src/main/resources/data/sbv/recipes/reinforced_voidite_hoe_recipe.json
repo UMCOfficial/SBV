@@ -1,26 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "01",
-    " 3",
-    " 5"
-  ],
-  "key": {
-    "0": {
-      "item": "sbv:reinforced_voidite_ingot"
-    },
-    "1": {
-      "item": "sbv:reinforced_voidite_ingot"
-    },
-    "3": {
-      "item": "minecraft:stick"
-    },
-    "5": {
-      "item": "minecraft:stick"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "sbv:voidite_hoe"
+  },
+  "addition": {
+    "item": "sbv:voidite_block"
   },
   "result": {
-    "item": "sbv:reinforced_voidite_hoe",
-    "count": 1
+    "item": "sbv:reinforced_voidite_hoe"
   }
 }

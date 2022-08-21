@@ -2,42 +2,19 @@
   "_fv": 33,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "CUSTOM:ReinforcedVoiditeIngot"
-      },
-      {
-        "value": "CUSTOM:ReinforcedVoiditeIngot"
-      },
-      {
-        "value": "CUSTOM:ReinforcedVoiditeIngot"
-      },
-      {
-        "value": "CUSTOM:ReinforcedVoiditeIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ReinforcedVoiditeIngot"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "smithingInputStack": {
+      "value": "CUSTOM:VoiditeArmor.helmet"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:VoiditeBlock"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:ReinforcedVoiditeArmor.helmet"
     },
     "name": "reinforced_voidite_armor_helmet_recipe",
