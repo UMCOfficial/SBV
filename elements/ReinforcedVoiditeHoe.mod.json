@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "reinforcedvoidite_hoe",
     "customModelName": "Normal",
-    "name": "ReinforcedVoidite Hoe",
+    "name": "Reinforced Voidite Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 14,

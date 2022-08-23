@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "null_trophy",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,

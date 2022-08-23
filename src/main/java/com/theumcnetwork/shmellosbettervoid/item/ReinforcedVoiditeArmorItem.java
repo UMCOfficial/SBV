@@ -6,13 +6,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+
+import com.theumcnetwork.shmellosbettervoid.init.SbvModTabs;
 
 public abstract class ReinforcedVoiditeArmorItem extends ArmorItem {
 	public ReinforcedVoiditeArmorItem(EquipmentSlot slot, Item.Properties properties) {
@@ -34,7 +35,7 @@ public abstract class ReinforcedVoiditeArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_gold"));
 			}
 
 			@Override
@@ -61,7 +62,7 @@ public abstract class ReinforcedVoiditeArmorItem extends ArmorItem {
 
 	public static class Helmet extends ReinforcedVoiditeArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
 		}
 
 		@Override
@@ -72,7 +73,7 @@ public abstract class ReinforcedVoiditeArmorItem extends ArmorItem {
 
 	public static class Chestplate extends ReinforcedVoiditeArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
 		}
 
 		@Override
@@ -83,7 +84,7 @@ public abstract class ReinforcedVoiditeArmorItem extends ArmorItem {
 
 	public static class Leggings extends ReinforcedVoiditeArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
 		}
 
 		@Override
@@ -94,7 +95,7 @@ public abstract class ReinforcedVoiditeArmorItem extends ArmorItem {
 
 	public static class Boots extends ReinforcedVoiditeArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
 		}
 
 		@Override

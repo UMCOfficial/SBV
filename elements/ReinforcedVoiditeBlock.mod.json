@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Block of ReinforcedVoidite",
+    "name": "Block of Reinforced Voidite",
     "specialInfo": [],
     "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShmellosBetterVoid"
+      "value": "CUSTOM:SBVMaterials"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

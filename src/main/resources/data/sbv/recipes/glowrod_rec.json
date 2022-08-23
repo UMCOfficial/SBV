@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "sbv:voidite_dust"
+    },
+    "1": {
+      "item": "minecraft:magma_cream"
+    },
+    "2": {
+      "item": "sbv:voidite_dust"
+    },
+    "3": {
+      "item": "sbv:voidite_dust"
+    },
+    "4": {
+      "item": "minecraft:magma_cream"
+    },
+    "5": {
+      "item": "sbv:voidite_dust"
+    },
+    "7": {
+      "item": "sbv:reinforced_voidite_block"
+    }
+  },
+  "result": {
+    "item": "sbv:glowrod",
+    "count": 1
+  }
+}

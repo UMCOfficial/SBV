@@ -85,10 +85,10 @@ public class SbvModItems {
 	public static final RegistryObject<Item> VOIDITE_DUST = REGISTRY.register("voidite_dust", () -> new VoiditeDustItem());
 	public static final RegistryObject<Item> VOIDITE_ORE = block(SbvModBlocks.VOIDITE_ORE, SbvModTabs.TAB_SBV_MATERIALS);
 	public static final RegistryObject<Item> VOIDITE_BLOCK = block(SbvModBlocks.VOIDITE_BLOCK, SbvModTabs.TAB_SBV_MATERIALS);
-	public static final RegistryObject<Item> VOID_1_LEAVES = block(SbvModBlocks.VOID_1_LEAVES, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> VOID_1_FENCE = block(SbvModBlocks.VOID_1_FENCE, CreativeModeTab.TAB_DECORATIONS);
-	public static final RegistryObject<Item> VOID_1_FENCE_GATE = block(SbvModBlocks.VOID_1_FENCE_GATE, CreativeModeTab.TAB_REDSTONE);
-	public static final RegistryObject<Item> VOID_1_PRESSURE_PLATE = block(SbvModBlocks.VOID_1_PRESSURE_PLATE, CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> VOID_1_LEAVES = block(SbvModBlocks.VOID_1_LEAVES, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
+	public static final RegistryObject<Item> VOID_1_FENCE = block(SbvModBlocks.VOID_1_FENCE, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
+	public static final RegistryObject<Item> VOID_1_FENCE_GATE = block(SbvModBlocks.VOID_1_FENCE_GATE, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
+	public static final RegistryObject<Item> VOID_1_PRESSURE_PLATE = block(SbvModBlocks.VOID_1_PRESSURE_PLATE, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
 	public static final RegistryObject<Item> EXCAVATOR = REGISTRY.register("excavator", () -> new ExcavatorItem());
 	public static final RegistryObject<Item> VOID_1_PICKAXE = REGISTRY.register("void_1_pickaxe", () -> new Void1PickaxeItem());
 	public static final RegistryObject<Item> VOID_1_AXE = REGISTRY.register("void_1_axe", () -> new Void1AxeItem());
@@ -155,8 +155,7 @@ public class SbvModItems {
 			() -> new ForgeSpawnEggItem(SbvModEntities.KULTR, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> REINFORCED_VOIDITE_INGOT = REGISTRY.register("reinforced_voidite_ingot",
 			() -> new ReinforcedVoiditeIngotItem());
-	public static final RegistryObject<Item> REINFORCED_VOIDITE_BLOCK = block(SbvModBlocks.REINFORCED_VOIDITE_BLOCK,
-			SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_BLOCK = block(SbvModBlocks.REINFORCED_VOIDITE_BLOCK, SbvModTabs.TAB_SBV_MATERIALS);
 	public static final RegistryObject<Item> REINFORCED_VOIDITE_PICKAXE = REGISTRY.register("reinforced_voidite_pickaxe",
 			() -> new ReinforcedVoiditePickaxeItem());
 	public static final RegistryObject<Item> REINFORCED_VOIDITE_AXE = REGISTRY.register("reinforced_voidite_axe",
@@ -175,6 +174,7 @@ public class SbvModItems {
 			() -> new ReinforcedVoiditeArmorItem.Leggings());
 	public static final RegistryObject<Item> REINFORCED_VOIDITE_ARMOR_BOOTS = REGISTRY.register("reinforced_voidite_armor_boots",
 			() -> new ReinforcedVoiditeArmorItem.Boots());
+	public static final RegistryObject<Item> GLOWROD = block(SbvModBlocks.GLOWROD, SbvModTabs.TAB_SHMELLOS_BETTER_VOID);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

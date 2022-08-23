@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "sbv:block/glowrod",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "sbv:block/glowrod",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "sbv:block/glowrod",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "sbv:block/glowrod",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "sbv:block/glowrod"
+    },
+    "facing=west": {
+      "model": "sbv:block/glowrod",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

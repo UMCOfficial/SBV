@@ -36,6 +36,7 @@ import com.theumcnetwork.shmellosbettervoid.block.Void1ButtonBlock;
 import com.theumcnetwork.shmellosbettervoid.block.ReinforcedVoiditeBlockBlock;
 import com.theumcnetwork.shmellosbettervoid.block.NullTrophyBlock;
 import com.theumcnetwork.shmellosbettervoid.block.GroundBlock;
+import com.theumcnetwork.shmellosbettervoid.block.GlowrodBlock;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
 
 public class SbvModBlocks {
@@ -63,12 +64,14 @@ public class SbvModBlocks {
 	public static final RegistryObject<Block> NULL_TROPHY = REGISTRY.register("null_trophy", () -> new NullTrophyBlock());
 	public static final RegistryObject<Block> REINFORCED_VOIDITE_BLOCK = REGISTRY.register("reinforced_voidite_block",
 			() -> new ReinforcedVoiditeBlockBlock());
+	public static final RegistryObject<Block> GLOWROD = REGISTRY.register("glowrod", () -> new GlowrodBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			NullTrophyBlock.registerRenderLayer();
+			GlowrodBlock.registerRenderLayer();
 		}
 	}
 }
