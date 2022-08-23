@@ -8,7 +8,7 @@
     "name": "Voidite Scrap",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:SBVMaterials"
+      "value": "MISC"
     },
     "stackSize": 64,
     "enchantability": 0,

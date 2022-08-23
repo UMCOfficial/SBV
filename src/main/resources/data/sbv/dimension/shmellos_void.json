@@ -7,13 +7,55 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
+          "biome": "sbv:void_woods",
+          "parameters": {
+            "temperature": [
+              -0.128571428571,
+              0.128571428571
+            ],
+            "humidity": [
+              -0.128571428571,
+              0.128571428571
+            ],
+            "continentalness": [
+              0.381428571429,
+              0.638571428571
+            ],
+            "weirdness": [
+              -0.413176135541,
+              -0.156033278399
+            ],
+            "erosion": [
+              0.671428571429,
+              0.928571428571
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
           "biome": "sbv:shmellos_better_void_biome",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 0,
-            "weirdness": 0,
-            "erosion": 0,
+            "temperature": [
+              -0.142857142857,
+              0.142857142857
+            ],
+            "humidity": [
+              -0.142857142857,
+              0.142857142857
+            ],
+            "continentalness": [
+              0.367142857143,
+              0.652857142857
+            ],
+            "weirdness": [
+              -0.427461849827,
+              -0.141747564113
+            ],
+            "erosion": [
+              0.657142857143,
+              0.942857142857
+            ],
             "depth": 0,
             "offset": 0
           }
@@ -2943,6 +2985,78 @@
               "type": "minecraft:block",
               "result_state": {
                 "Name": "minecraft:bedrock"
+              }
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "sbv:void_woods"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:above_preliminary_surface"
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:stone_depth",
+                      "surface_type": "floor",
+                      "add_surface_depth": false,
+                      "secondary_depth_range": 0,
+                      "offset": 0
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:water",
+                            "offset": -1,
+                            "surface_depth_multiplier": 0,
+                            "add_stone_depth": false
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "sbv:void_roots"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "sbv:ground"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:stone_depth",
+                      "surface_type": "floor",
+                      "add_surface_depth": true,
+                      "secondary_depth_range": 0,
+                      "offset": 0
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "sbv:ground"
+                      }
+                    }
+                  }
+                ]
               }
             }
           },

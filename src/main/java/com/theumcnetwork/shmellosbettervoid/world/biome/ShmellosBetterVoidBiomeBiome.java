@@ -30,7 +30,6 @@ import java.util.List;
 import com.theumcnetwork.shmellosbettervoid.world.features.treedecorators.ShmellosBetterVoidBiomeTrunkDecorator;
 import com.theumcnetwork.shmellosbettervoid.world.features.treedecorators.ShmellosBetterVoidBiomeLeaveDecorator;
 import com.theumcnetwork.shmellosbettervoid.world.features.treedecorators.ShmellosBetterVoidBiomeFruitDecorator;
-import com.theumcnetwork.shmellosbettervoid.init.SbvModBlocks;
 
 import com.google.common.collect.ImmutableList;
 
@@ -42,8 +41,8 @@ public class ShmellosBetterVoidBiomeBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register(
 				"sbv:tree_shmellos_better_void_biome",
 				FeatureUtils.register("sbv:tree_shmellos_better_void_biome", Feature.TREE,
-						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(SbvModBlocks.VOID_1_WOOD.get().defaultBlockState()),
-								new GiantTrunkPlacer(10, 2, 14), BlockStateProvider.simple(SbvModBlocks.VOID_1_LEAVES.get().defaultBlockState()),
+						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.AIR.defaultBlockState()),
+								new GiantTrunkPlacer(10, 2, 14), BlockStateProvider.simple(Blocks.AIR.defaultBlockState()),
 								new MegaPineFoliagePlacer(ConstantInt.of(0), ConstantInt.of(0), UniformInt.of(3, 4)),
 								new TwoLayersFeatureSize(1, 1, 2))
 								.decorators(ImmutableList.of(ShmellosBetterVoidBiomeLeaveDecorator.INSTANCE,

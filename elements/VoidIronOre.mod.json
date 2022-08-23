@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "VoidIron Ore",
+    "name": "Void Iron Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 5.0,
@@ -129,6 +129,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:ShmellosBetterVoidBiome"
+      },
+      {
+        "value": "CUSTOM:VoidWoods"
       }
     ],
     "blocksToReplace": [

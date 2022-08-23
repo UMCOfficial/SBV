@@ -54,7 +54,8 @@ public class VoidDiamondOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("sbv:shmellos_better_void_biome"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("sbv:void_woods"),
+			new ResourceLocation("sbv:shmellos_better_void_biome"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
 			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("sbv:shmellos_void")));
 

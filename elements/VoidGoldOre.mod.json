@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "VoidGold Ore",
+    "name": "Void Gold Ore",
     "specialInfo": [],
     "hardness": 1.5,
     "resistance": 2.871745887492587,
@@ -129,6 +129,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:ShmellosBetterVoidBiome"
+      },
+      {
+        "value": "CUSTOM:VoidWoods"
       }
     ],
     "blocksToReplace": [
@@ -140,6 +143,6 @@
     "frequencyPerChunks": 20,
     "frequencyOnChunk": 13,
     "minGenerateHeight": -57,
-    "maxGenerateHeight": 117
+    "maxGenerateHeight": 81
   }
 }

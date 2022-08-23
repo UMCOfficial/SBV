@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "reinforcedvoidite_axe",
     "customModelName": "Normal",
-    "name": "ReinforcedVoidite Axe",
+    "name": "Reinforced Voidite Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:SBVTools"
+      "value": "TOOLS"
     },
     "toolType": "Axe",
     "harvestLevel": 14,

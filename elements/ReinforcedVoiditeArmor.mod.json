@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "reinforcedvoidite_boots",
     "creativeTab": {
-      "value": "CUSTOM:SBVArmour"
+      "value": "COMBAT"
     },
     "armorTextureFile": "reinforcedvoidite",
-    "helmetName": "Reinforced Voidite Helmet",
-    "bodyName": "Reinforced Voidite Chestplate",
-    "leggingsName": "Reinforced Voidite Leggings",
-    "bootsName": "Reinforced Voidite Boots",
+    "helmetName": "ReinforcedVoidite Helmet",
+    "bodyName": "ReinforcedVoidite Chestplate",
+    "leggingsName": "ReinforcedVoidite Leggings",
+    "bootsName": "ReinforcedVoidite Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -51,7 +51,7 @@
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_gold"
+      "value": ""
     },
     "repairItems": []
   }

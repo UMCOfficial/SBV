@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "voidiron_ingot",
     "customModelName": "Normal",
-    "name": "VoidIron",
+    "name": "Void Iron",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:SBVMaterials"

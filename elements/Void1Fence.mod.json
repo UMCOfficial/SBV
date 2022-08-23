@@ -19,8 +19,8 @@
     "blockBase": "Fence",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
-    "connectedSides": false,
+    "hasTransparency": true,
+    "connectedSides": true,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShmellosBetterVoid"
+      "value": "DECORATIONS"
     },
     "destroyTool": "Not specified",
     "customDrop": {

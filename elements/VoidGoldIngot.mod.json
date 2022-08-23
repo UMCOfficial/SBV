@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "voidgold_ingot",
     "customModelName": "Normal",
-    "name": "VoidGold",
+    "name": "Void Gold",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:SBVMaterials"

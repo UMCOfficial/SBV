@@ -33,7 +33,7 @@ public class SbvModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<KultrEntity>> KULTR = register("kultr",
-			EntityType.Builder.<KultrEntity>of(KultrEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			EntityType.Builder.<KultrEntity>of(KultrEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(KultrEntity::new)
 
 					.sized(0.6f, 1f));

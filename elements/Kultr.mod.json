@@ -55,7 +55,7 @@
     "followRange": 16,
     "health": 10,
     "xpAmount": 0,
-    "waterMob": false,
+    "waterMob": true,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -68,7 +68,7 @@
     "immuneToArrows": false,
     "immuneToFallDamage": false,
     "immuneToCactus": false,
-    "immuneToDrowning": false,
+    "immuneToDrowning": true,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
@@ -117,10 +117,20 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
-    "mobSpawningType": "monster",
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:ShmellosBetterVoidBiome"
+      },
+      {
+        "value": "CUSTOM:Voidlands"
+      },
+      {
+        "value": "CUSTOM:VoijidOceans"
+      }
+    ],
     "spawnInDungeons": false
   }
 }

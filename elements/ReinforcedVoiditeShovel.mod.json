@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "reinforcedvoidite_shovel",
     "customModelName": "Normal",
-    "name": "ReinforcedVoidite Shovel",
+    "name": "Reinforced Voidite Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:SBVTools"
+      "value": "TOOLS"
     },
     "toolType": "Spade",
     "harvestLevel": 14,

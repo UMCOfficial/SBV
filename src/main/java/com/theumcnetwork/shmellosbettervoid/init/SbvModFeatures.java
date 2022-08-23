@@ -27,6 +27,9 @@ import com.theumcnetwork.shmellosbettervoid.world.features.ores.VoidIronOreFeatu
 import com.theumcnetwork.shmellosbettervoid.world.features.ores.VoidGoldOreFeature;
 import com.theumcnetwork.shmellosbettervoid.world.features.ores.VoidDiamondOreFeature;
 import com.theumcnetwork.shmellosbettervoid.world.features.lakes.VoijidFeature;
+import com.theumcnetwork.shmellosbettervoid.world.features.Voidtree2Feature;
+import com.theumcnetwork.shmellosbettervoid.world.features.Voidtree1Feature;
+import com.theumcnetwork.shmellosbettervoid.world.features.HouseFeature;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
 
 @Mod.EventBusSubscriber
@@ -44,6 +47,12 @@ public class SbvModFeatures {
 					VoidDiamondOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> VOIDITE_ORE = register("voidite_ore", VoiditeOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, VoiditeOreFeature.GENERATE_BIOMES, VoiditeOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> HOUSE = register("house", HouseFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HouseFeature.GENERATE_BIOMES, HouseFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> VOIDTREE_1 = register("voidtree_1", Voidtree1Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, Voidtree1Feature.GENERATE_BIOMES, Voidtree1Feature::placedFeature));
+	public static final RegistryObject<Feature<?>> VOIDTREE_2 = register("voidtree_2", Voidtree2Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, Voidtree2Feature.GENERATE_BIOMES, Voidtree2Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

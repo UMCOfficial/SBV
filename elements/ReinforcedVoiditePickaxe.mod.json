@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "reinforcedvoidite_pickaxe",
     "customModelName": "Normal",
-    "name": "ReinforcedVoidite Pickaxe",
+    "name": "Reinforced Voidite Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:SBVTools"
+      "value": "TOOLS"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 14,

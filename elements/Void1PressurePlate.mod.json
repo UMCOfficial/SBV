@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ShmellosBetterVoid"
+      "value": "REDSTONE"
     },
     "destroyTool": "Not specified",
     "customDrop": {

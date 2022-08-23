@@ -6,9 +6,11 @@
     "texture": "reinforcedvoidite_hoe",
     "customModelName": "Normal",
     "name": "Reinforced Voidite Hoe",
-    "specialInfo": [],
+    "specialInfo": [
+      "Bro why"
+    ],
     "creativeTab": {
-      "value": "CUSTOM:SBVTools"
+      "value": "TOOLS"
     },
     "toolType": "Hoe",
     "harvestLevel": 14,
@@ -18,7 +20,7 @@
     "damageVsEntity": 14.0,
     "usageCount": 3660,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "CUSTOM:ReinforcedVoiditeIngot"

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "voiddiamond",
     "customModelName": "Normal",
-    "name": "VoidDiamond",
+    "name": "Void Diamond",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:SBVMaterials"
@@ -27,7 +27,7 @@
     "specialInfo": [
       "A Diamond but from the void"
     ],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

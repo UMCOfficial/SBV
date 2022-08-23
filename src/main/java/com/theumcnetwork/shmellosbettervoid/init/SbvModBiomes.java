@@ -13,6 +13,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.biome.Biome;
 
+import com.theumcnetwork.shmellosbettervoid.world.biome.VoidWoodsBiome;
 import com.theumcnetwork.shmellosbettervoid.world.biome.ShmellosBetterVoidBiomeBiome;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
 
@@ -21,11 +22,13 @@ public class SbvModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, SbvMod.MODID);
 	public static final RegistryObject<Biome> SHMELLOS_BETTER_VOID_BIOME = REGISTRY.register("shmellos_better_void_biome",
 			() -> ShmellosBetterVoidBiomeBiome.createBiome());
+	public static final RegistryObject<Biome> VOID_WOODS = REGISTRY.register("void_woods", () -> VoidWoodsBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			ShmellosBetterVoidBiomeBiome.init();
+			VoidWoodsBiome.init();
 		});
 	}
 }

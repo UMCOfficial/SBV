@@ -123,6 +123,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:ShmellosBetterVoidBiome"
+      },
+      {
+        "value": "CUSTOM:Voidlands"
       }
     ],
     "spawnInDungeons": false

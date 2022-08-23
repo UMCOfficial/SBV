@@ -45,7 +45,7 @@ public class VoidGoldOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("sbv:void_gold_ore", FEATURE,
 				new OreConfiguration(VoidGoldOreFeatureRuleTest.INSTANCE, SbvModBlocks.VOID_GOLD_ORE.get().defaultBlockState(), 13));
 		PLACED_FEATURE = PlacementUtils.register("sbv:void_gold_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(20), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(-57), VerticalAnchor.absolute(117)), BiomeFilter.biome()));
+				HeightRangePlacement.uniform(VerticalAnchor.absolute(-57), VerticalAnchor.absolute(81)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -53,7 +53,8 @@ public class VoidGoldOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("sbv:shmellos_better_void_biome"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("sbv:void_woods"),
+			new ResourceLocation("sbv:shmellos_better_void_biome"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
 			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("sbv:shmellos_void")));
 

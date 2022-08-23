@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "reinforcedvoidite_sword",
     "customModelName": "Normal",
-    "name": "ReinforcedVoidite Sword",
+    "name": "Reinforced Voidite Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:SBVWeapons"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 14,

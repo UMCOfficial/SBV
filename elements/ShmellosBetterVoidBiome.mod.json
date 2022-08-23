@@ -54,10 +54,10 @@
     "treeType": 1,
     "minHeight": 10,
     "treeStem": {
-      "value": "CUSTOM:Void1Wood"
+      "value": "Blocks.AIR"
     },
     "treeBranch": {
-      "value": "CUSTOM:Void1Leaves"
+      "value": "Blocks.AIR"
     },
     "treeVines": {
       "value": "Blocks.AIR"
