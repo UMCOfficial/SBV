@@ -8,7 +8,7 @@
     "name": "Reinforced Voidite Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SBVWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 14,

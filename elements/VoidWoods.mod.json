@@ -4,7 +4,7 @@
   "definition": {
     "name": "Void Woods",
     "groundBlock": {
-      "value": "CUSTOM:VoidRoots"
+      "value": "CUSTOM:Ground"
     },
     "undergroundBlock": {
       "value": "CUSTOM:Ground"

@@ -52,7 +52,8 @@ import com.theumcnetwork.shmellosbettervoid.init.SbvModBlocks;
 
 @Mod.EventBusSubscriber
 public class NullEntity extends TamableAnimal {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sbv:shmellos_better_void_biome"));
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sbv:void_woods"),
+			new ResourceLocation("sbv:shmellos_better_void_biome"));
 
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {

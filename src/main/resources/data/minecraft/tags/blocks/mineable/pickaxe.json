@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "sbv:null_trophy",
-    "sbv:reinforced_voidite_block",
     "sbv:void_gold_ore",
     "sbv:void_gold_block",
     "sbv:void_iron_ore",
@@ -10,6 +9,7 @@
     "sbv:void_diamond_ore",
     "sbv:void_diamond_block",
     "sbv:voidite_ore",
-    "sbv:voidite_block"
+    "sbv:voidite_block",
+    "sbv:reinforced_voidite_block"
   ]
 }

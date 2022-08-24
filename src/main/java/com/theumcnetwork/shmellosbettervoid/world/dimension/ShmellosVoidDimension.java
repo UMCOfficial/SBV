@@ -29,7 +29,7 @@ public class ShmellosVoidDimension {
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
 			replaceableBlocks.add(SbvModBlocks.GROUND.get());
-			replaceableBlocks.add(SbvModBlocks.VOID_ROOTS.get());
+			replaceableBlocks.add(SbvModBlocks.GROUND.get());
 			replaceableBlocks.add(SbvModBlocks.GROUND.get());
 			replaceableBlocks.add(SbvModBlocks.GROUND.get());
 			replaceableBlocks.add(SbvModBlocks.GROUND.get());

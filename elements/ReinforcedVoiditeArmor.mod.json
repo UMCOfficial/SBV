@@ -10,8 +10,20 @@
     "textureLeggings": "reinforcedvoidite_leggings",
     "enableBoots": true,
     "textureBoots": "reinforcedvoidite_boots",
+    "onHelmetTick": {
+      "name": "VoideningGet"
+    },
+    "onBodyTick": {
+      "name": "VoideningGet"
+    },
+    "onLeggingsTick": {
+      "name": "VoideningGet"
+    },
+    "onBootsTick": {
+      "name": "VoideningGet"
+    },
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:SBVArmour"
     },
     "armorTextureFile": "reinforcedvoidite",
     "helmetName": "ReinforcedVoidite Helmet",

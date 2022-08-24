@@ -3027,7 +3027,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "sbv:void_roots"
+                              "Name": "sbv:ground"
                             }
                           }
                         },

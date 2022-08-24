@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "sbv_logo",
+    "texture": "e",
     "customModelName": "Normal",
     "name": "SBV_LOGO",
     "rarity": "EPIC",

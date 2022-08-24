@@ -11,7 +11,7 @@ displayURL="https://theumcnetwork.com"
 logoFile="logo.png"
 authors="Its Mr. Shmello"
 description='''
-Void enhancement for minecraft (JEI Recomended) (Jade and jei apis are supported)
+A Void Enhancement Mod
 '''
 
 [[dependencies.sbv]]

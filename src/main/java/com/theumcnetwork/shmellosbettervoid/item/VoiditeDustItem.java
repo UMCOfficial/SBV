@@ -10,7 +10,7 @@ import com.theumcnetwork.shmellosbettervoid.init.SbvModTabs;
 
 public class VoiditeDustItem extends Item {
 	public VoiditeDustItem() {
-		super(new Item.Properties().tab(SbvModTabs.TAB_SBV_MATERIALS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(SbvModTabs.TAB_SBV_MATERIALS).stacksTo(64).rarity(Rarity.RARE));
 	}
 
 	@Override

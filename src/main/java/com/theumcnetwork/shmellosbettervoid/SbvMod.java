@@ -31,6 +31,7 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import com.theumcnetwork.shmellosbettervoid.init.SbvModTabs;
+import com.theumcnetwork.shmellosbettervoid.init.SbvModMobEffects;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModItems;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModFluids;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModFeatures;
@@ -56,6 +57,8 @@ public class SbvMod {
 
 		SbvModFeatures.REGISTRY.register(bus);
 		SbvModFluids.REGISTRY.register(bus);
+
+		SbvModMobEffects.REGISTRY.register(bus);
 
 		SbvModBiomes.REGISTRY.register(bus);
 

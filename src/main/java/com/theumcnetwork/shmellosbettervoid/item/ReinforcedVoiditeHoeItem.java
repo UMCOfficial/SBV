@@ -11,12 +11,14 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
+import com.theumcnetwork.shmellosbettervoid.procedures.ReinforcementsGetProcedure;
+import com.theumcnetwork.shmellosbettervoid.init.SbvModTabs;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModItems;
 
 public class ReinforcedVoiditeHoeItem extends HoeItem {
@@ -45,13 +47,19 @@ public class ReinforcedVoiditeHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(SbvModItems.REINFORCED_VOIDITE_INGOT.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -3f, new Item.Properties().tab(SbvModTabs.TAB_SBV_TOOLS));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
 		list.add(new TextComponent("Bro why"));
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		ReinforcementsGetProcedure.execute(entity);
 	}
 
 	@Override

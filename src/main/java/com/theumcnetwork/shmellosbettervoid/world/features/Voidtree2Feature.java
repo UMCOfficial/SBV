@@ -52,7 +52,7 @@ public class Voidtree2Feature extends Feature<NoneFeatureConfiguration> {
 
 	public Voidtree2Feature() {
 		super(NoneFeatureConfiguration.CODEC);
-		base_blocks = List.of(SbvModBlocks.VOID_ROOTS.get());
+		base_blocks = List.of(SbvModBlocks.GROUND.get());
 	}
 
 	@Override

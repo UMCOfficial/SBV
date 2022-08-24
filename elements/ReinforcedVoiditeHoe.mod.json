@@ -10,7 +10,7 @@
       "Bro why"
     ],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SBVTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 14,
@@ -28,6 +28,9 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "ReinforcementsGet"
+    }
   }
 }

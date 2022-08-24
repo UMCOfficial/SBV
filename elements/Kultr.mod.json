@@ -13,11 +13,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -1,
+      "value": -3355648,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -13369447,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -125,10 +125,7 @@
         "value": "CUSTOM:ShmellosBetterVoidBiome"
       },
       {
-        "value": "CUSTOM:Voidlands"
-      },
-      {
-        "value": "CUSTOM:VoijidOceans"
+        "value": "CUSTOM:VoidWoods"
       }
     ],
     "spawnInDungeons": false

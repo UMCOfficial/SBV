@@ -17,7 +17,7 @@
     ],
     "restrictionBlocks": [
       {
-        "value": "CUSTOM:VoidRoots"
+        "value": "CUSTOM:Ground"
       }
     ],
     "restrictionBiomes": [

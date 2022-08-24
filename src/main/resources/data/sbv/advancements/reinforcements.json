@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "sbv:reinforced_voidite_block"
+    },
+    "title": {
+      "translate": "advancements.reinforcements.title"
+    },
+    "description": {
+      "translate": "advancements.reinforcements.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "reinforcements": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "sbv:inde_beninnging"
+}

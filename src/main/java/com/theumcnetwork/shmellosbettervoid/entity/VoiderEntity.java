@@ -42,15 +42,21 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import java.util.Set;
+
 import com.theumcnetwork.shmellosbettervoid.procedures.VoiderThisEntityKillsAnotherOneProcedure;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModEntities;
 import com.theumcnetwork.shmellosbettervoid.init.SbvModBlocks;
 
 @Mod.EventBusSubscriber
 public class VoiderEntity extends Monster {
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sbv:void_woods"),
+			new ResourceLocation("sbv:shmellos_better_void_biome"));
+
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SbvModEntities.VOIDER.get(), 9, 1, 1));
+		if (SPAWN_BIOMES.contains(event.getName()))
+			event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(SbvModEntities.VOIDER.get(), 9, 1, 1));
 	}
 
 	public VoiderEntity(PlayMessages.SpawnEntity packet, Level world) {

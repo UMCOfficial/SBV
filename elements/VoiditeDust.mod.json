@@ -6,7 +6,7 @@
     "texture": "voidite_dust",
     "customModelName": "Normal",
     "name": "Voidite",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:SBVMaterials"
     },

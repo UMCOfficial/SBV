@@ -6,9 +6,9 @@
     "texture": "reinforcedvoidite_ingot",
     "customModelName": "Normal",
     "name": "Reinforced Voidite",
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SBVMaterials"
     },
     "stackSize": 64,
     "enchantability": 0,

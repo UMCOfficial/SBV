@@ -19,6 +19,8 @@ import net.minecraft.world.entity.Entity;
 import com.theumcnetwork.shmellosbettervoid.entity.VoiderEntity;
 import com.theumcnetwork.shmellosbettervoid.entity.NullEntity;
 import com.theumcnetwork.shmellosbettervoid.entity.KultrEntity;
+import com.theumcnetwork.shmellosbettervoid.entity.GrulpEntityProjectile;
+import com.theumcnetwork.shmellosbettervoid.entity.GrulpEntity;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -37,6 +39,14 @@ public class SbvModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(KultrEntity::new)
 
 					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<GrulpEntity>> GRULP = register("grulp",
+			EntityType.Builder.<GrulpEntity>of(GrulpEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(GrulpEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GrulpEntityProjectile>> GRULP_PROJECTILE = register("projectile_grulp",
+			EntityType.Builder.<GrulpEntityProjectile>of(GrulpEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(GrulpEntityProjectile::new).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -48,6 +58,7 @@ public class SbvModEntities {
 			VoiderEntity.init();
 			NullEntity.init();
 			KultrEntity.init();
+			GrulpEntity.init();
 		});
 	}
 
@@ -56,5 +67,6 @@ public class SbvModEntities {
 		event.put(VOIDER.get(), VoiderEntity.createAttributes().build());
 		event.put(NULL.get(), NullEntity.createAttributes().build());
 		event.put(KULTR.get(), KultrEntity.createAttributes().build());
+		event.put(GRULP.get(), GrulpEntity.createAttributes().build());
 	}
 }

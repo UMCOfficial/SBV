@@ -47,7 +47,8 @@ import com.theumcnetwork.shmellosbettervoid.init.SbvModEntities;
 
 @Mod.EventBusSubscriber
 public class KultrEntity extends Animal {
-	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sbv:shmellos_better_void_biome"));
+	private static final Set<ResourceLocation> SPAWN_BIOMES = Set.of(new ResourceLocation("sbv:void_woods"),
+			new ResourceLocation("sbv:shmellos_better_void_biome"));
 
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
