@@ -1,0 +1,40 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "voiditebow",
+    "customModelName": "Normal",
+    "name": "Voidite Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SBVWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Voiditearrow"
+    },
+    "shootConstantly": false,
+    "usageCount": 2031,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "VoiditebowRangedItemUsed"
+    },
+    "bulletPower": 2.4,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Voiditearrow"
+    },
+    "bulletModel": "Modelmodel_arrow",
+    "customBulletModelTexture": "voidite_arrow.png"
+  }
+}

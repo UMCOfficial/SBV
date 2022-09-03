@@ -44,6 +44,9 @@ public class ReinforcementsGetProcedure {
 				&& (entity instanceof Player _playerHasItem
 						? _playerHasItem.getInventory().contains(new ItemStack(SbvModItems.REINFORCED_VOIDITE_HOE.get()))
 						: false)
+				&& (entity instanceof Player _playerHasItem
+						? _playerHasItem.getInventory().contains(new ItemStack(SbvModItems.REINFORCED_VOIDITE_BOW.get()))
+						: false)
 				&& !(entity instanceof ServerPlayer _plr && _plr.level instanceof ServerLevel
 						? _plr.getAdvancements()
 								.getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("sbv:reinforcements"))).isDone()

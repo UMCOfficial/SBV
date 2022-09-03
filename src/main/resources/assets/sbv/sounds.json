@@ -36,5 +36,15 @@
         "stream": false
       }
     ]
+  },
+  "negative": {
+    "category": "record",
+    "subtitle": "subtitles.negative",
+    "sounds": [
+      {
+        "name": "sbv:negative",
+        "stream": true
+      }
+    ]
   }
 }

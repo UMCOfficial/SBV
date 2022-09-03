@@ -1059,28 +1059,12 @@
       "registry_name": "sbv_materials"
     },
     {
-      "name": "SBVDiscs",
-      "type": "tab",
-      "sortid": 146,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sbv_discs"
-    },
-    {
       "name": "VoidedPieces",
       "type": "musicdisc",
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "voided_pieces"
-    },
-    {
-      "name": "SBVArmour",
-      "type": "tab",
-      "sortid": 147,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sbv_armour"
     },
     {
       "name": "Void1Pickaxe",
@@ -1727,6 +1711,158 @@
           }
         ]
       }
+    },
+    {
+      "name": "Voiditebow",
+      "type": "rangeditem",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voiditebow"
+    },
+    {
+      "name": "ReinforcedVoiditeBowProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_voidite_bow_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rvb",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rvb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReinforcedVoiditeBow",
+      "type": "rangeditem",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_voidite_bow"
+    },
+    {
+      "name": "Voiditearrow",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voiditearrow"
+    },
+    {
+      "name": "ReinforcedVoiditeArrow",
+      "type": "item",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_voidite_arrow"
+    },
+    {
+      "name": "VoiditeArrowRec",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voidite_arrow_rec"
+    },
+    {
+      "name": "ReinforcedVoiditeArrowRec",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_voidite_arrow_rec"
+    },
+    {
+      "name": "ReinforcedVoiditeBowRangedItemUsed",
+      "type": "procedure",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_voidite_bow_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoiditebowRangedItemUsed",
+      "type": "procedure",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voiditebow_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SBVArmor",
+      "type": "tab",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sbv_armor"
+    },
+    {
+      "name": "Negative",
+      "type": "musicdisc",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "negative"
     }
   ],
   "variable_elements": [],
@@ -1762,6 +1898,14 @@
       ],
       "category": "voice",
       "subtitle": "Null Died"
+    },
+    {
+      "name": "negative",
+      "files": [
+        "negative"
+      ],
+      "category": "record",
+      "subtitle": "Negativity is what\u0027s left"
     }
   ],
   "language_map": {
@@ -1769,6 +1913,7 @@
       "item.sbv.void_gold_pickaxe": "Void Gold Pickaxe",
       "itemGroup.tabsbv_weapons": "SBV Weapons",
       "block.sbv.void_1_fence_gate": "Void Fence Gate",
+      "item.sbv.reinforced_voidite_arrow": "Reinforced Voidite Arrow",
       "item.sbv.void_1_axe": "Void Axe",
       "advancements.noweheretobefound.descr": "Get Voidite Debries",
       "subtitles.voidedpieces": "",
@@ -1776,8 +1921,8 @@
       "advancements.void_master.descr": "Get a full set of voidite armour and wear it",
       "block.sbv.glowrod": "Glowrod",
       "item.sbv.void_iron_sword": "Void Iron Sword",
-      "item.sbv.voidite_armor_helmet": "Voidite Helmet",
       "item.sbv.voidite_hoe": "Voidite Hoe",
+      "item.sbv.voidite_armor_helmet": "Voidite Helmet",
       "block.sbv.void_1_button": "Void Button",
       "item.sbv.reinforced_voidite_hoe": "Reinforced Voidite Hoe",
       "item.sbv.void_iron_axe": "Void Iron Axe",
@@ -1788,19 +1933,20 @@
       "item.sbv.reinforced_voidite_axe": "Reinforced Voidite Axe",
       "item.sbv.voidite_sword": "Voidite Sword",
       "itemGroup.tabshmellos_better_void": "SBV",
+      "itemGroup.tabsbv_armor": "SBV Armor",
       "block.sbv.void_1_leaves": "Void Leaves",
       "block.sbv.void_1_slab": "Void Slab",
       "block.sbv.void_1_log": "Void Log",
       "item.sbv.reinforced_voidite_ingot": "Reinforced Voidite",
       "item.sbv.voidite_armor_leggings": "Voidite Leggings",
       "item.sbv.reinforced_voidite_armor_leggings": "ReinforcedVoidite Leggings",
-      "itemGroup.tabsbv_discs": "SBV Discs",
       "item.sbv.reinforced_voidite_armor_helmet": "ReinforcedVoidite Helmet",
       "advancements.what_is_that.descr": "Get a bucket of Voijid",
       "item.sbv.voidite_armor_boots": "Voidite Boots",
       "item.sbv.voided_pieces": "Voided Pieces",
       "item.sbv.voidite_axe": "Voidite Axe",
       "item.sbv.voidite_scrap": "Voidite Scrap",
+      "subtitles.negative": "Negativity is what\u0027s left",
       "item.sbv.void_iron_armor_boots": "VoidIron Boots",
       "item.sbv.void_diamond_armor_boots": "VoidDiamond Boots",
       "advancements.diamonds.title": "Diamonds?",
@@ -1808,6 +1954,7 @@
       "item.sbv.void_iron_armor_helmet": "VoidIron Helmet",
       "item.sbv.void_gold_armor_leggings": "Void Gold Leggings",
       "item.sbv.voided_pieces.desc": "The Transdimensional Three - Voided Pieces",
+      "item.sbv.negative.desc": "Its Mr. Shmello - Negative",
       "item.sbv.sbvlogo": "SBV_LOGO",
       "item.sbv.void_gold_armor_boots": "Void Gold Boots",
       "item.sbv.voidite_dust": "Voidite",
@@ -1836,8 +1983,8 @@
       "block.sbv.void_diamond_ore": "Void Diamond Ore",
       "advancements.noweheretobefound.title": "No where to be found",
       "item.sbv.voidite_armor_chestplate": "Voidite Chestplate",
+      "item.sbv.negative": "Negative",
       "advancements.inde_beninnging.title": "Inde Beninnging",
-      "itemGroup.tabsbv_armour": "SBV Armor",
       "item.sbv.void_diamond_sword": "Void Diamond Sword",
       "biome.sbv.void_woods": "Void Woods",
       "item.sbv.sbv": "Void Charm",
@@ -1878,15 +2025,18 @@
       "advancements.diamonds.descr": "Obtain a void diamond",
       "advancements.only_1500.title": "Damn Only 1500?",
       "block.sbv.void_iron_ore": "Void Iron Ore",
+      "item.sbv.voiditebow": "Voidite Bow",
       "subtitles.null_talk": "Null is talking",
       "item.sbv.void_iron_ingot": "Void Iron",
       "block.sbv.void_gold_block": "Block of Void Gold",
       "item.sbv.reinforced_voidite_armor_chestplate": "ReinforcedVoidite Chestplate",
+      "item.sbv.reinforced_voidite_bow": "Reinforced Voidite Bow",
       "fluid.sbv.voijid": "Voijid",
       "subtitles.deathbyvoider": "",
       "item.sbv.void_diamond_armor_chestplate": "VoidDiamond Chestplate",
       "item.sbv.void_gold_hoe": "Void Gold Hoe",
       "advancements.inde_beninnging.descr": "Enter The Void",
+      "item.sbv.voiditearrow": "Voiditearrow",
       "item.sbv.void_gold_armor_chestplate": "Void Gold Chestplate",
       "itemGroup.tabsbv_tools": "SBV Tools",
       "advancements.reinforcements.descr": "Obtain a full set of Reinforced Voidite (this includes tools)",
@@ -1901,7 +2051,7 @@
   "workspaceSettings": {
     "modid": "sbv",
     "modName": "Shmello\u0027s better void",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "A Void Enhancement Mod",
     "author": "Its Mr. Shmello",
     "websiteURL": "https://theumcnetwork.com",

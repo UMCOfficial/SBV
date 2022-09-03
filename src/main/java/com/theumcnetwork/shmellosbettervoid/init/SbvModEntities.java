@@ -16,7 +16,9 @@ import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
+import com.theumcnetwork.shmellosbettervoid.entity.VoiditebowEntity;
 import com.theumcnetwork.shmellosbettervoid.entity.VoiderEntity;
+import com.theumcnetwork.shmellosbettervoid.entity.ReinforcedVoiditeBowEntity;
 import com.theumcnetwork.shmellosbettervoid.entity.NullEntity;
 import com.theumcnetwork.shmellosbettervoid.entity.KultrEntity;
 import com.theumcnetwork.shmellosbettervoid.entity.GrulpEntityProjectile;
@@ -47,6 +49,13 @@ public class SbvModEntities {
 	public static final RegistryObject<EntityType<GrulpEntityProjectile>> GRULP_PROJECTILE = register("projectile_grulp",
 			EntityType.Builder.<GrulpEntityProjectile>of(GrulpEntityProjectile::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(GrulpEntityProjectile::new).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<VoiditebowEntity>> VOIDITEBOW = register("projectile_voiditebow",
+			EntityType.Builder.<VoiditebowEntity>of(VoiditebowEntity::new, MobCategory.MISC).setCustomClientFactory(VoiditebowEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ReinforcedVoiditeBowEntity>> REINFORCED_VOIDITE_BOW = register("projectile_reinforced_voidite_bow",
+			EntityType.Builder.<ReinforcedVoiditeBowEntity>of(ReinforcedVoiditeBowEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ReinforcedVoiditeBowEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

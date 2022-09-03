@@ -49,11 +49,11 @@ public class GrulpEntityProjectile extends AbstractArrow implements ItemSupplier
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(SbvModItems.VOIDITE_SWORD.get());
+		return new ItemStack(SbvModItems.REINFORCED_VOIDITE_ARROW.get());
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(SbvModItems.VOIDITE_SWORD.get());
+		return new ItemStack(SbvModItems.REINFORCED_VOIDITE_ARROW.get());
 	}
 }

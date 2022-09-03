@@ -63,7 +63,7 @@ public abstract class VoidIronArmorItem extends ArmorItem {
 
 	public static class Helmet extends VoidIronArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class VoidIronArmorItem extends ArmorItem {
 
 	public static class Chestplate extends VoidIronArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override
@@ -85,7 +85,7 @@ public abstract class VoidIronArmorItem extends ArmorItem {
 
 	public static class Leggings extends VoidIronArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override
@@ -96,7 +96,7 @@ public abstract class VoidIronArmorItem extends ArmorItem {
 
 	public static class Boots extends VoidIronArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override

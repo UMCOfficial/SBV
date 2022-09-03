@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "voidiron_boots",
     "creativeTab": {
-      "value": "CUSTOM:SBVArmour"
+      "value": "CUSTOM:SBVArmor"
     },
     "armorTextureFile": "voidiron",
     "helmetName": "VoidIron Helmet",

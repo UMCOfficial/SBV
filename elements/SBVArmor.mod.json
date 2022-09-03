@@ -4,8 +4,8 @@
   "definition": {
     "name": "SBV Armor",
     "icon": {
-      "value": "CUSTOM:VoiditeArmor.body"
+      "value": "CUSTOM:ReinforcedVoiditeArmor.body"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

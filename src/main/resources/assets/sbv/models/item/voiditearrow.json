@@ -1,0 +1,7 @@
+{
+  "parent": "sbv:custom/model_arrow",
+  "textures": {
+    "0": "sbv:blocks/voidite_arrow",
+    "particle": "sbv:items/voiditearrow"
+  }
+}

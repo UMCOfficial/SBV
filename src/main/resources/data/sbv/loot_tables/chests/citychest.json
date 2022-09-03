@@ -171,6 +171,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sbv:voided_pieces",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },
@@ -335,6 +349,20 @@
           "type": "minecraft:item",
           "name": "sbv:voijid_bucket",
           "weight": 6,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sbv:negative",
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",

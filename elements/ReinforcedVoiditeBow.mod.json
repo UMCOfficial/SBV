@@ -1,0 +1,49 @@
+{
+  "_fv": 33,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "reinforcedvoiditebow",
+    "customModelName": "Normal",
+    "name": "Reinforced Voidite Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:SBVWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:ReinforcedVoiditeArrow"
+    },
+    "shootConstantly": false,
+    "usageCount": 4062,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "ReinforcedVoiditeBowRangedItemUsed"
+    },
+    "bulletPower": 3.6,
+    "bulletDamage": 6.6,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:ReinforcedVoiditeArrow"
+    },
+    "bulletModel": "Modelmodel_arrow2",
+    "customBulletModelTexture": "reinforced_voidite_arrow.png",
+    "onBulletHitsBlock": {
+      "name": "ReinforcedVoiditeBowProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "Rvb"
+    },
+    "onBulletHitsEntity": {
+      "name": "Rvb"
+    }
+  }
+}

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "sbv:void_roots",
     "sbv:ground"
   ]
 }

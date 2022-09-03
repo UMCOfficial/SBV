@@ -111,7 +111,7 @@
     ],
     "ranged": true,
     "rangedAttackItem": {
-      "value": "CUSTOM:VoiditeSword"
+      "value": "CUSTOM:ReinforcedVoiditeArrow"
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,

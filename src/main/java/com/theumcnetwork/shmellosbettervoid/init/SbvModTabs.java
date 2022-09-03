@@ -15,8 +15,7 @@ public class SbvModTabs {
 	public static CreativeModeTab TAB_SBV_TOOLS;
 	public static CreativeModeTab TAB_SBV_WEAPONS;
 	public static CreativeModeTab TAB_SBV_MATERIALS;
-	public static CreativeModeTab TAB_SBV_DISCS;
-	public static CreativeModeTab TAB_SBV_ARMOUR;
+	public static CreativeModeTab TAB_SBV_ARMOR;
 
 	public static void load() {
 		TAB_SHMELLOS_BETTER_VOID = new CreativeModeTab("tabshmellos_better_void") {
@@ -27,9 +26,9 @@ public class SbvModTabs {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 		TAB_SBV_TOOLS = new CreativeModeTab("tabsbv_tools") {
 			@Override
 			public ItemStack makeIcon() {
@@ -38,9 +37,9 @@ public class SbvModTabs {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 		TAB_SBV_WEAPONS = new CreativeModeTab("tabsbv_weapons") {
 			@Override
 			public ItemStack makeIcon() {
@@ -49,9 +48,9 @@ public class SbvModTabs {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 		TAB_SBV_MATERIALS = new CreativeModeTab("tabsbv_materials") {
 			@Override
 			public ItemStack makeIcon() {
@@ -60,30 +59,19 @@ public class SbvModTabs {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
-		TAB_SBV_DISCS = new CreativeModeTab("tabsbv_discs") {
+		};
+		TAB_SBV_ARMOR = new CreativeModeTab("tabsbv_armor") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(SbvModItems.VOIDED_PIECES.get());
+				return new ItemStack(SbvModItems.REINFORCED_VOIDITE_ARMOR_CHESTPLATE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
-		TAB_SBV_ARMOUR = new CreativeModeTab("tabsbv_armour") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(SbvModItems.VOIDITE_ARMOR_CHESTPLATE.get());
-			}
-
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasSearchBar() {
-				return true;
-			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 	}
 }

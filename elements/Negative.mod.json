@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "negative",
+    "name": "Negative",
+    "description": "Its Mr. Shmello - Negative",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "CUSTOM:negative"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

@@ -66,7 +66,7 @@ public abstract class VoiditeArmorItem extends ArmorItem {
 
 	public static class Helmet extends VoiditeArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override
@@ -82,7 +82,7 @@ public abstract class VoiditeArmorItem extends ArmorItem {
 
 	public static class Chestplate extends VoiditeArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override
@@ -98,7 +98,7 @@ public abstract class VoiditeArmorItem extends ArmorItem {
 
 	public static class Leggings extends VoiditeArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override
@@ -114,7 +114,7 @@ public abstract class VoiditeArmorItem extends ArmorItem {
 
 	public static class Boots extends VoiditeArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOUR));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(SbvModTabs.TAB_SBV_ARMOR));
 		}
 
 		@Override

@@ -11,7 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import com.theumcnetwork.shmellosbettervoid.client.renderer.VoiditebowRenderer;
 import com.theumcnetwork.shmellosbettervoid.client.renderer.VoiderRenderer;
+import com.theumcnetwork.shmellosbettervoid.client.renderer.ReinforcedVoiditeBowRenderer;
 import com.theumcnetwork.shmellosbettervoid.client.renderer.NullRenderer;
 import com.theumcnetwork.shmellosbettervoid.client.renderer.KultrRenderer;
 import com.theumcnetwork.shmellosbettervoid.client.renderer.GrulpRenderer;
@@ -25,5 +27,7 @@ public class SbvModEntityRenderers {
 		event.registerEntityRenderer(SbvModEntities.KULTR.get(), KultrRenderer::new);
 		event.registerEntityRenderer(SbvModEntities.GRULP.get(), GrulpRenderer::new);
 		event.registerEntityRenderer(SbvModEntities.GRULP_PROJECTILE.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(SbvModEntities.VOIDITEBOW.get(), VoiditebowRenderer::new);
+		event.registerEntityRenderer(SbvModEntities.REINFORCED_VOIDITE_BOW.get(), ReinforcedVoiditeBowRenderer::new);
 	}
 }

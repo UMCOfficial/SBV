@@ -15,6 +15,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import com.theumcnetwork.shmellosbettervoid.item.VoijidItem;
+import com.theumcnetwork.shmellosbettervoid.item.VoiditebowItem;
+import com.theumcnetwork.shmellosbettervoid.item.VoiditearrowItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeSwordItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeShovelItem;
 import com.theumcnetwork.shmellosbettervoid.item.VoiditeScrapItem;
@@ -57,8 +59,11 @@ import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeShovelItem;
 import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditePickaxeItem;
 import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeIngotItem;
 import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeHoeItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeBowItem;
 import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeAxeItem;
+import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeArrowItem;
 import com.theumcnetwork.shmellosbettervoid.item.ReinforcedVoiditeArmorItem;
+import com.theumcnetwork.shmellosbettervoid.item.NegativeItem;
 import com.theumcnetwork.shmellosbettervoid.item.ExcavatorItem;
 import com.theumcnetwork.shmellosbettervoid.SbvMod;
 
@@ -177,6 +182,13 @@ public class SbvModItems {
 	public static final RegistryObject<Item> GRULP = REGISTRY.register("grulp_spawn_egg",
 			() -> new ForgeSpawnEggItem(SbvModEntities.GRULP, -13369447, -13421773, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> SBVLOGO = REGISTRY.register("sbvlogo", () -> new SBVLOGOItem());
+	public static final RegistryObject<Item> VOIDITEBOW = REGISTRY.register("voiditebow", () -> new VoiditebowItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_BOW = REGISTRY.register("reinforced_voidite_bow",
+			() -> new ReinforcedVoiditeBowItem());
+	public static final RegistryObject<Item> VOIDITEARROW = REGISTRY.register("voiditearrow", () -> new VoiditearrowItem());
+	public static final RegistryObject<Item> REINFORCED_VOIDITE_ARROW = REGISTRY.register("reinforced_voidite_arrow",
+			() -> new ReinforcedVoiditeArrowItem());
+	public static final RegistryObject<Item> NEGATIVE = REGISTRY.register("negative", () -> new NegativeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

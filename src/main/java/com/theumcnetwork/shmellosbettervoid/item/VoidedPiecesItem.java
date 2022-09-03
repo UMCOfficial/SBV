@@ -12,6 +12,6 @@ import com.theumcnetwork.shmellosbettervoid.init.SbvModSounds;
 public class VoidedPiecesItem extends RecordItem {
 	public VoidedPiecesItem() {
 		super(0, SbvModSounds.REGISTRY.get(new ResourceLocation("sbv:voidedpieces")),
-				new Item.Properties().tab(SbvModTabs.TAB_SBV_DISCS).stacksTo(1).rarity(Rarity.RARE));
+				new Item.Properties().tab(SbvModTabs.TAB_SHMELLOS_BETTER_VOID).stacksTo(1).rarity(Rarity.RARE));
 	}
 }
